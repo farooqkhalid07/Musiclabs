@@ -1,0 +1,35 @@
+.golden-bg {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 52.25%, #101010 97.82%),
+        linear-gradient(180deg, #101010 2.53%, rgba(0, 0, 0, 0) 42.41%);
+    padding: 90px 0;
+}
+.golden-bg .detail {
+    padding: 50px;
+}
+.golden-bg .detail h2 {
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+.golden-bg .detail h5 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.progress-label {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 7px;
+}
+.progress-label span {
+    color: #ffffff66;
+}
+.price-section .progress {
+    width: 250px;
+    max-width: 100%;
+    background: #202020;
+    border-radius: 40px;
+}
+.price-section .progress .progress-bar {
+    background: #f7f7f7;
+}

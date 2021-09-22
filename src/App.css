@@ -14,11 +14,22 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 ,.title , .nav-link, .dropdown-toggl
   border-radius: 25px;
   padding: 6px 15px;
 }
+.btn.btn-theme:hover{
+  background: linear-gradient( 
+    90deg, #9000F3, #DE05BA) !important;
+  color: #fff !important;
+  border-color: #9000F3 !important;
+}
 .bg-gradient{
   background: linear-gradient( 
     90deg, #9000F3, #DE05BA) !important;
   color: #fff !important;
   border-color: #9000F3 !important;
+}
+.btn.btn-theme.bg-gradient:hover{
+  color: #fff;
+  background-color: #202020;
+  border-color: #202020;
 }
 .bg-gray{
   background-color: #4C4C4D !important;

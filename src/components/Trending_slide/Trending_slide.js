@@ -11,8 +11,15 @@ function Trending_slide(){
                 <img className="img-fluid" src={music_img} />
              </div>
              <div className="music-details">
-                 <h3>NATOXIE Ft Lionel Nidaud - SHATTA...</h3>
-                 <span>Alexander Stewart</span>
+                <div className="music-head d-flex">
+                    <div className="music-title">
+                        <h3>NATOXIE Ft Lionel Nidaud - SHATTA...</h3>
+                        <span>Alexander Stewart</span>
+                    </div>
+                    <button type="button" className="btn btn-theme ethereum-icon d-flex bg-gradient">
+                            0,09 ETH
+                    </button>
+                </div>
                  <div className="d-flex icons-row">
                     <div className="like">
                         <FontAwesomeIcon icon={faHeart} />
@@ -22,15 +29,11 @@ function Trending_slide(){
                         <FontAwesomeIcon icon={faPlay} />
                         <span>1M</span>
                     </div>
-                    <div className="view">
-                        <FontAwesomeIcon icon={faPlay} />
-                        <span>1M</span>
+                    <div className="subtract">
+                        <span><FontAwesomeIcon icon={faDotCircle} /></span>
+                        <span>8 / 10</span>
                     </div>
-                    <div className="button">
-                        <button type="button" className="btn btn-theme ethereum-icon d-flex bg-gradient">
-                                0,09 ETH
-                        </button>
-                    </div>
+                    
                 </div>
              </div>
              

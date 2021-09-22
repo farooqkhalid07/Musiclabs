@@ -26,8 +26,7 @@ function Nft(){
                         <button type="button" className="btn btn-theme">Show all</button>
                    </div>
                 </Col>
-                <div>
-                <Slider className="home-slider" {...settings}>
+                <Slider className="home-slider mt-2" {...settings}>
                     <div className="slide">
                     <Nft_slide/>
                     </div>
@@ -59,7 +58,6 @@ function Nft(){
                     <Nft_slide/>
                     </div>
                 </Slider>
-            </div>
             </Row>
         </Container>
 

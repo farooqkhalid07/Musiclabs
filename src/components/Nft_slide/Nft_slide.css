@@ -6,8 +6,9 @@
 }
 .home-slider .slide-content {
     padding: 194px 30px 0px;
+    color: #fff;
 }
-.slide-content svg{
+.slide-content .play-icon svg{
     color: #ffffff73;
     font-size: 56px;
 }
@@ -16,4 +17,13 @@
     color: #fff;
     text-transform: uppercase;
     margin-top: 8px;
+}
+.client-details{
+    width: 100%;
+    color: #fff;
+    margin-top: 18px;
+}
+.icons-row{
+font-size: 18px;
+gap: 30px;
 }

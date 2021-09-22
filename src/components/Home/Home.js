@@ -14,8 +14,8 @@ function Home(){
              <div className="banner-section">
                 <Header/>
                 <Banner/>
-                <Nft/>
              </div>
+             <Nft/>
         </React.Fragment>
     )
 }

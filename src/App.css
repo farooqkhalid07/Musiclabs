@@ -1,3 +1,11 @@
+
+body {
+  font-family: "SF Pro Text";
+}
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 ,.title , .nav-link, .dropdown-toggle{
+  font-family: "Gotham";
+}
 .App {
   text-align: center;
 }

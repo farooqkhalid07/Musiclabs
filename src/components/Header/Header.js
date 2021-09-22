@@ -30,7 +30,7 @@ function Header(){
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <ul className="navbar-nav m-auto">
-                                    <span class="material-icons-outlined"></span>
+                                    <span className="material-icons-outlined"></span>
                                         <li className={`nav-item ${pathname==='/' ? 'active' : ''}`}><Link className="nav-link" to="/"><span className="nav-icon"><FontAwesomeIcon icon={faCompass} /></span>Discover </Link></li>
                                         <li className={`nav-item ${pathname==='' ? 'active' : ''}`}><Link className="nav-link" to=""><span className="nav-icon"><FontAwesomeIcon icon={faExchangeAlt} /></span>Trade</Link></li>
                                         <li className={`nav-item ${pathname==='' ? 'active' : ''}`}><Link className="nav-link" to=""><span className="nav-icon"><FontAwesomeIcon icon={faPlayCircle}/></span>Library</Link></li>

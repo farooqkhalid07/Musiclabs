@@ -1,0 +1,8 @@
+/* body.dark-mode {
+    background-color: black;
+} */
+
+.banner-section{
+    background-image: url('../../images/header-bg.png');
+    background-size: cover;
+}

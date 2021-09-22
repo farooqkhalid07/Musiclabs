@@ -10,7 +10,7 @@ function Nft_slide(){
             <FontAwesomeIcon icon={faPlayCircle}/>
             <h3>House of cards</h3>
             <span>Alexander Stewart</span>
-            <div class="d-flex">
+            <div className="d-flex">
                 <span></span>
             </div>
         </div>

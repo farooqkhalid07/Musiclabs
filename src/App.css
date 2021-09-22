@@ -6,20 +6,28 @@ body {
 h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 ,.title , .nav-link, .dropdown-toggle{
   font-family: "Gotham";
 }
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 .btn.btn-theme {
   color: #fff;
   background-color: #202020;
   border-color: #202020;
   border-radius: 25px;
   padding: 6px 15px;
+}
+.bg-gradient{
+  background: linear-gradient( 
+    90deg, #9000F3, #DE05BA) !important;
+  color: #fff !important;
+  border-color: #9000F3 !important;
+}
+.bg-gray{
+  background-color: #4C4C4D !important;
+  border-color: #4C4C4D !important;
+}
+.sub-heading {
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 @media (prefers-reduced-motion: no-preference) {

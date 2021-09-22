@@ -1,0 +1,25 @@
+.music-content{
+    color: #fff;
+    position: relative;
+}
+.music-content{
+    color: #fff;
+    position: relative;
+    gap: 20px;
+    margin: 10px 0px;
+}
+.music-details h3 {
+    font-size: 13px;
+}
+
+.ethereum-icon:before {
+    color: #fff;
+    content: '';
+    width: 20px;
+    background: url('../../images/ethereum.svg');
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 5px;
+}

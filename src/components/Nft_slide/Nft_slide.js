@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row, Dropdown } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faPlayCircle, faHeart, faPlay} from '@fortawesome/free-solid-svg-icons';
+import {faPlayCircle, faHeart, faPlay, faDotCircle } from '@fortawesome/free-solid-svg-icons';
 import './Nft_slide.css';
 
 function Nft_slide(){
@@ -26,8 +26,16 @@ function Nft_slide(){
             </div>
             <div className="d-flex justify-content-between slide-bottom">
                 <div className="subtract">
-                    <span><FontAwesomeIcon icon={faPlay} /></span>
+                    <span><FontAwesomeIcon icon={faDotCircle} /></span>
                     <span>8 / 10</span>
+                </div>
+                <div className="button-aligns d-flex">
+                    <button type="button" className="btn btn-theme ethereum-icon d-flex bg-gray">
+                        Free - Play
+                    </button>
+                    <button type="button" className="btn btn-theme ethereum-icon d-flex bg-gradient">
+                        0,09 ETH
+                    </button>
                 </div>
             </div>
 

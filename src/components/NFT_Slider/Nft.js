@@ -19,14 +19,14 @@ function Nft(){
         <Container>
             <Row>
                 <Col md={6}>
-                    <div className="sub-heading"><h2>Pay or play</h2></div>
+                    <h2 className="sub-heading">Pay or play</h2>
                 </Col>
                 <Col md={6}>
                     <div className="float-end">
                         <button type="button" className="btn btn-theme">Show all</button>
                    </div>
                 </Col>
-                <Slider className="home-slider mt-2" {...settings}>
+                <Slider className="home-slider mt-2 mb-5" {...settings}>
                     <div className="slide">
                     <Nft_slide/>
                     </div>

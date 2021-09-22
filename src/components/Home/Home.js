@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import './Home.css';
 import Banner from '../Banner/Banner';
 import Nft from '../NFT_Slider/Nft.js';
+import Trending_slider from '../Trending/Trending_slider';
 // import Footer from '../Footer/Footer.js';
 
 
@@ -16,6 +17,7 @@ function Home(){
                 <Banner/>
              </div>
              <Nft/>
+             <Trending_slider/>
         </React.Fragment>
     )
 }

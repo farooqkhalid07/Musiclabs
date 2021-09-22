@@ -23,14 +23,14 @@ function Golden_West() {
                             </div>
                             <h2 className="sub-heading">The Golden West</h2>
                             <h5>Ethan Luck</h5>
-                            <div className="d-flex price-section justify-content-between align-item-center">
+                            <div className="d-flex price-section justify-content-between align-item-end">
                                 <div className="d-flex flex-column">
                                     <div className="progress-label">987 € <span>/ 10 000 €</span></div>
                                     <div className="progress">
                                         <div className="progress-bar" role="progressbar" style={{width: '25%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <button className="btn btn-gradient">Participate</button>
+                                <button className="btn btn-theme bg-gradient">Participate</button>
                             </div>
                         </div>
                     </Col>

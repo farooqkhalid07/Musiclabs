@@ -20,6 +20,7 @@ function Home(){
              <Nft/>
              <Trending_slider/>
              <Golden_West/>
+             <Trending_slider/>
         </React.Fragment>
     )
 }

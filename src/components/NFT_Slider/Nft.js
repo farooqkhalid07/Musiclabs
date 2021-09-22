@@ -11,7 +11,8 @@ import './Nft.css';
       infinite: true,
       speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 1
+      slidesToScroll: 3,
+      arrows: false,
     };
 function Nft(){
     return(
@@ -26,25 +27,37 @@ function Nft(){
                    </div>
                 </Col>
                 <div>
-                <Slider {...settings}>
-                <div className="slide">
-                   <Nft_slide/>
-                </div>
-                <div>
-                    <h3>2</h3>
-                </div>
-                <div>
-                    <h3>3</h3>
-                </div>
-                <div>
-                    <h3>4</h3>
-                </div>
-                <div>
-                    <h3>5</h3>
-                </div>
-                <div>
-                    <h3>6</h3>
-                </div>
+                <Slider className="home-slider" {...settings}>
+                    <div className="slide">
+                    <Nft_slide/>
+                    </div>
+                    <div className="slide">
+                    <Nft_slide/>
+                    </div>
+                    <div className="slide">
+                    <Nft_slide/>
+                    </div>
+                    <div className="slide">
+                    <Nft_slide/>
+                    </div>
+                    <div className="slide">
+                    <Nft_slide/>
+                    </div>
+                    <div className="slide">
+                    <Nft_slide/>
+                    </div>
+                    <div className="slide">
+                    <Nft_slide/>
+                    </div>
+                    <div className="slide">
+                    <Nft_slide/>
+                    </div>
+                    <div className="slide">
+                    <Nft_slide/>
+                    </div>
+                    <div className="slide">
+                    <Nft_slide/>
+                    </div>
                 </Slider>
             </div>
             </Row>

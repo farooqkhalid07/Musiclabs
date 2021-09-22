@@ -1,0 +1,19 @@
+.home-slider .slide{
+    background-image: url('../../images/cards-music.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 368px;
+}
+.home-slider .slide-content {
+    padding: 194px 30px 0px;
+}
+.slide-content svg{
+    color: #ffffff73;
+    font-size: 56px;
+}
+.slide-content h3{
+    font-size: 29px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 8px;
+}

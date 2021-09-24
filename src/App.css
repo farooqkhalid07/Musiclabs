@@ -41,7 +41,12 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 ,.title , .nav-link, .dropdown-toggl
   text-transform: uppercase;
   color: #fff;
 }
-
+.heading{
+  font-size: 68px;
+}
+span{
+  font-size: 13px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -62,7 +67,11 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 ,.title , .nav-link, .dropdown-toggl
 .App-link {
   color: #61dafb;
 }
-
+.dark-popup .modal-content{
+  background-color: #101010;
+  color: #fff;
+  border: none;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

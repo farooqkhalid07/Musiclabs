@@ -5,6 +5,7 @@ import {faPlayCircle} from '@fortawesome/free-solid-svg-icons';
 import Slider from "react-slick";
 import Nft_slide from "../Nft_slide/Nft_slide";
 import './Nft.css';
+import HouseOfCard from "../HouseOfCard/HouseOfCard";
 
  const settings = {
       dots: false,
@@ -61,6 +62,7 @@ function Nft(){
                     </Slider>
                 </Row>
             </Container>
+            <HouseOfCard/>
         </div>
 
     )

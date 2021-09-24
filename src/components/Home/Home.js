@@ -7,6 +7,7 @@ import Banner from '../Banner/Banner';
 import Nft from '../NFT_Slider/Nft.js';
 import Trending_slider from '../Trending/Trending_slider';
 import Golden_West from "../Golden_West/Golden_West";
+import HouseOfCard from "../HouseOfCard/HouseOfCard";
 // import Footer from '../Footer/Footer.js';
 
 
@@ -21,6 +22,8 @@ function Home(){
              <Trending_slider/>
              <Golden_West/>
              <Trending_slider/>
+
+             
         </React.Fragment>
     )
 }

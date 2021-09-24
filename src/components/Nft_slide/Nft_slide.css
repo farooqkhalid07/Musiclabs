@@ -59,3 +59,101 @@ gap: 30px;
 .client-details h5 {
     font-size: 16px;
 }
+
+/* POPUP */
+
+.left-side-content{
+    background: url(../../images/house-cards-bg.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 851px;
+    padding-top: 265px;
+}
+.title {
+    font-size: 68px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.house-of-cards .modal-dialog{
+    max-width: 1267px;
+}
+.house-of-cards .modal-body{
+    padding: 0px;
+}
+.house-of-cards .modal-content{
+    border-radius: 25px;
+}
+span.singer-name {
+    padding-top: 42px;
+    display: block;
+    text-decoration: underline;
+    font-size: 16px;
+}
+.media-icons{
+    margin-top: 38px;
+    font-size: 35px;
+}
+.layers{
+    overflow: hidden;
+}
+.layers img {
+    margin-top: 38px;
+    padding-left: 128px;
+}
+
+.right-side-content {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 20px 20px 20px 0px;
+}
+.right-side-content .cross-btn {
+    width: 30px;
+    height: 30px;
+    background: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.content-box span, .content-box h6{
+    font-size: 13px;
+}
+.house-of-cards .left-side-content .ethereum-icon:before{
+height: 20px;
+}
+.house-of-cards .right-side-content .scroll{
+    max-height: 720px;
+    overflow: auto;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+
+.house-of-cards .right-side-content .scroll::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .house-of-cards .right-side-content .scroll::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  /* Handle */
+  .house-of-cards .right-side-content .scroll::-webkit-scrollbar-thumb {
+    background: #202020;
+  }
+  
+  /* Handle on hover */
+  .house-of-cards .right-side-content .scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .category{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      margin-top: 30px;
+  }

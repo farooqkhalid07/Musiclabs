@@ -6,3 +6,23 @@ body.dark-mode {
     background-image: url('../../images/header-bg.png');
     background-size: cover;
 }
+div#root {
+    overflow: hidden;
+}
+.slick-list{
+    overflow: visible !important;
+}
+.slick-list:before {
+    content: '';
+    width: 290px;
+    height: 405px;
+    display: block;
+    background: #101010;
+    position: absolute;
+    z-index: 9;
+    left: -304px;
+}
+.top-section {
+    position: relative;
+    bottom: 120px;
+}

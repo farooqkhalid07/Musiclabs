@@ -1,6 +1,5 @@
 import React  from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Col, Row } from "react-bootstrap";
 import Header from '../Header/Header';
 import './Home.css';
 import Banner from '../Banner/Banner';
@@ -19,11 +18,11 @@ function Home(){
                 <Banner/>
              </div>
              <Nft/>
-             <Trending_slider/>
-             <Golden_West/>
-             <Trending_slider/>
-
-             
+             <div className="sec-bg-gradient">
+                <Trending_slider/>
+                <Golden_West/>
+                <Trending_slider/>
+             </div>
         </React.Fragment>
     )
 }

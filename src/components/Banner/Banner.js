@@ -1,13 +1,21 @@
 import React from "react";
 import { Col, Container, Row, Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import './Banner.css';
 
 function Banner(){
     return(
         <Container>
             <Row>
-                <Col>
+                <Col md={12}>
+                    <div className="input-group header-search">
+                        <input type="text" name="search" className="form-control" />
+                        <span className="search-icon"><FontAwesomeIcon icon={faSearch} /></span>
+                    </div>
+                </Col>
+                <Col md={12}>
                     <div className="banner-top-dropdown d-flex justify-content-center">
                         {/* Music Style */}
                         <Dropdown>

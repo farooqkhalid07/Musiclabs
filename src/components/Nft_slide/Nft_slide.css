@@ -1,5 +1,5 @@
 .home-slider .slide-content {
-    background-image: url('../../images/cards-music.png');
+    background-image: url('../../images/cards-music.svg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 404px;
@@ -36,7 +36,7 @@ gap: 30px;
     content: '';
     width: 20px;
     background: url('../../images/ethereum.svg');
-    height: 30px;
+    height: 20px;
     display: block;
     background-repeat: no-repeat;
     position: relative;
@@ -46,12 +46,10 @@ gap: 30px;
     font-size: 13px;
     gap: 10px;
     display: flex;
+    align-items: center;
 }
 .slide-bottom .button-aligns {
     gap: 10px;
-}
-.slide-bottom .button-aligns button{
-    padding: 3px 10px 0px;
 }
 .slide-bottom {
     margin-top: 25px;
@@ -69,11 +67,7 @@ gap: 30px;
     height: 851px;
     padding-top: 265px;
 }
-.title {
-    font-size: 68px;
-    line-height: 80px;
-    text-transform: uppercase;
-}
+
 .house-of-cards .modal-dialog{
     max-width: 1267px;
 }
@@ -122,9 +116,7 @@ span.singer-name {
 .content-box span, .content-box h6{
     font-size: 13px;
 }
-.house-of-cards .left-side-content .ethereum-icon:before{
-height: 20px;
-}
+
 .house-of-cards .right-side-content .scroll{
     max-height: 720px;
     overflow: auto;

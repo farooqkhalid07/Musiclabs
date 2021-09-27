@@ -13,42 +13,44 @@ const settings = {
   };
 function Trending_slider(){
     return(
-        <Container>
-            <Row>
-                <Col md={6}>
-                   <h2 className="sub-heading">Trending</h2>
-                </Col>
-                <Col md={6}>
-                    <div className="float-end">
-                        <button type="button" className="btn btn-theme">Show all</button>
-                   </div>
-                </Col>
-                <Col>
-                <Slider className="music-group mt-2 mb-5" {...settings}>
-                    <div className="music-list">
-                        <Trending_slide />
-                        <Trending_slide />
+        <section className="trending-section">
+            <Container>
+                <Row>
+                    <Col md={6}>
+                    <h2 className="sub-heading">Trending</h2>
+                    </Col>
+                    <Col md={6}>
+                        <div className="float-end">
+                            <button type="button" className="btn btn-theme">Show all</button>
                     </div>
-                    <div className="music-list">
-                        <Trending_slide />
-                        <Trending_slide />
-                    </div>
-                    <div className="music-list">
-                        <Trending_slide />
-                        <Trending_slide />
-                    </div>
-                    <div className="music-list">
-                        <Trending_slide />
-                        <Trending_slide />
-                    </div>
-                    <div className="music-list">
-                        <Trending_slide />
-                        <Trending_slide />
-                    </div>
-                </Slider>
-                </Col>
-            </Row>
-        </Container>
+                    </Col>
+                    <Col>
+                    <Slider className="music-group mt-2 mb-5" {...settings}>
+                        <div className="music-list">
+                            <Trending_slide />
+                            <Trending_slide />
+                        </div>
+                        <div className="music-list">
+                            <Trending_slide />
+                            <Trending_slide />
+                        </div>
+                        <div className="music-list">
+                            <Trending_slide />
+                            <Trending_slide />
+                        </div>
+                        <div className="music-list">
+                            <Trending_slide />
+                            <Trending_slide />
+                        </div>
+                        <div className="music-list">
+                            <Trending_slide />
+                            <Trending_slide />
+                        </div>
+                    </Slider>
+                    </Col>
+                </Row>
+            </Container>
+        </section>
     )
 }
 export default Trending_slider;

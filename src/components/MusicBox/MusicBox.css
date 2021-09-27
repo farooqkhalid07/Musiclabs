@@ -1,0 +1,19 @@
+.library-tabs-section .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: transparent;
+    border-color: #ea06b1 #dee2e6 #fff;
+    color: #fff;
+    border: 0px;
+    border-bottom: 1px solid #ea06b1;
+}
+.library-tabs-section .nav-tabs {
+   border: 0px;
+}
+.library-tabs-section .nav-tabs .nav-link{
+    font-size: 28px;
+    color: #202020;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px 20px;
+    border: 0px;
+}

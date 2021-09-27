@@ -31,9 +31,9 @@ function Header(){
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <ul className="navbar-nav m-auto">
                                     <span className="material-icons-outlined"></span>
-                                        <li className={`nav-item ${pathname==='/' ? 'active' : ''}`}><Link className="nav-link" to="/"><span className="nav-icon"><FontAwesomeIcon icon={faCompass} /></span>Discover </Link></li>
-                                        <li className={`nav-item ${pathname==='' ? 'active' : ''}`}><Link className="nav-link" to=""><span className="nav-icon"><FontAwesomeIcon icon={faExchangeAlt} /></span>Trade</Link></li>
-                                        <li className={`nav-item ${pathname==='' ? 'active' : ''}`}><Link className="nav-link" to=""><span className="nav-icon"><FontAwesomeIcon icon={faPlayCircle}/></span>Library</Link></li>
+                                        <li className={`nav-item ${pathname==='/' ? 'active' : ''}`}><Link className="nav-link" to="/"><i className="nav-icon"><FontAwesomeIcon icon={faCompass} /></i>Discover </Link></li>
+                                        <li className={`nav-item ${pathname==='/trade' ? 'active' : ''}`}><Link className="nav-link" to="/trade"><i className="nav-icon"><FontAwesomeIcon icon={faExchangeAlt} /></i>Trade</Link></li>
+                                        <li className={`nav-item ${pathname==='/library' ? 'active' : ''}`}><Link className="nav-link" to="/library"><i className="nav-icon"><FontAwesomeIcon icon={faPlayCircle}/></i>Library</Link></li>
                                     </ul>
                                 </Navbar.Collapse>
                             </Navbar>
@@ -44,12 +44,7 @@ function Header(){
                         </div>
                         </Col>
 
-                        <Col>
-                            <div className="input-group header-search">
-                                <input type="text" name="search" className="form-control" />
-                                <span className="search-icon"><FontAwesomeIcon icon={faSearch} /></span>
-                            </div>
-                        </Col>
+                       
                     </Row>
                 </Container>
             </header>

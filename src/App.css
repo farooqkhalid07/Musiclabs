@@ -36,6 +36,12 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 ,.title , .nav-link, .dropdown-toggl
   background-color: #4C4C4D !important;
   border-color: #4C4C4D !important;
 }
+.dropdown-item.active, .dropdown-item:active{
+  background: linear-gradient( 
+    90deg, #9000F3, #DE05BA) !important;
+  color: #fff !important;
+  border-color: #9000F3 !important;
+}
 .sub-heading {
   font-size: 44px;
   text-transform: uppercase;
@@ -46,6 +52,16 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 ,.title , .nav-link, .dropdown-toggl
 }
 span{
   font-size: 13px;
+}
+.title {
+  font-size: 68px;
+  line-height: 80px;
+  text-transform: uppercase;
+
+}
+
+.dark-mode span, .dark-mode h2, .dark-mode .title, .dark-mode h6, .dark-mode p{
+  color: white;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

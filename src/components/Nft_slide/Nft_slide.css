@@ -101,7 +101,7 @@ span.singer-name {
     position: relative;
     padding: 20px 20px 20px 0px;
 }
-.right-side-content .cross-btn {
+.cross-btn {
     width: 30px;
     height: 30px;
     background: #202020;
@@ -150,3 +150,8 @@ span.singer-name {
       gap: 20px;
       margin-top: 30px;
   }
+  .music-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

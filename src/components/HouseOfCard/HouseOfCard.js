@@ -1,12 +1,12 @@
 import React,{useState} from "react";
 import './HouseOfCard.css'
 import { Modal,Button } from "react-bootstrap";
+import CartPopups from "../Cart/CartPopup";
 function HouseOfCard(){
     
     const [lgShow, setLgShow] = useState(false);
     return(
         <>
-       
         <Modal
             size="lg"
             show={lgShow}
@@ -20,7 +20,9 @@ function HouseOfCard(){
             </Modal.Header>
             <Modal.Body>...</Modal.Body>
       </Modal>
+      
       </>
+
     )
 }
 

@@ -2,27 +2,21 @@ import React, { useState } from "react";
 import { Col, Container, Row, Dropdown } from "react-bootstrap";
 import { Modal, Button, } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlayCircle, faHeart, faPlay, faDotCircle, faTimes, faPause } from '@fortawesome/free-solid-svg-icons';
+import {  faDotCircle, faTimes, faPause } from '@fortawesome/free-solid-svg-icons';
 import MusicLayer from '../../images/music-layers.svg';
 import MusicGraph from '../../images/music-graph.svg';
 import './Nft_slide_modal.css';
+import CartPopup from "../Cart/CartPopup";
 
 function Nft_slide_modal(props) {
-    // console.log(props);
-    // const [lgShow, setLgShow] = useState(props.lgShow);
-
+    const [smShows, setsmShows] = useState(false);
+    const hideModel = () => { setsmShows(false) }
     
-
-//   const handleClose = () => setLgShow(false);
-//   const handleShow = () => setLgShow(true);
     return (
         <>
-            
             <Modal
                 className="house-of-cards dark-popup"
-                // size="xl"
                 show={props.lgShow}
-                // onHide={() => setShowFromChild(!props.lgShow)}
                 aria-labelledby="example-modal-sizes-title-lg"
             >
                 <Modal.Body>
@@ -41,7 +35,7 @@ function Nft_slide_modal(props) {
                                         <span><FontAwesomeIcon icon={faDotCircle} /></span>
                                         <span>987</span>
                                     </div>
-                                    <button type="button" className="btn btn-theme bg-gradient ethereum-icon d-flex">
+                                    <button type="button" className="btn btn-theme bg-gradient ethereum-icon d-flex" onClick={() => setsmShows(true)}>
                                         0,09 ETH
                                     </button>
                                 </div>
@@ -117,6 +111,9 @@ function Nft_slide_modal(props) {
                     </Row>
                 </Modal.Body>
             </Modal>
+            <div className="modal-wrapper">
+                <CartPopup hideModel={hideModel} smShows={smShows} />
+            </div>
         </>
     )
 }

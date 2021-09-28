@@ -1,4 +1,4 @@
-span.back {
+a.back {
     display: flex;
     width: 40px;
     height: 40px;
@@ -7,12 +7,16 @@ span.back {
     justify-content: center;
     border-radius: 50%;
     margin: 30px 0px;
+    color: white;
 }
 .sub-catregory{
     font-size: 16px;
     text-decoration: underline;
 }
-.bg-white{
-    background-color: white;
-    color: #333;
+
+.singer-details-content .tabs .library-tabs-section .nav-tabs .nav-link {
+    margin-left: 0px !important; 
+}
+.singer-details-content .tabs .library-tabs-section hr{
+    display: none;
 }

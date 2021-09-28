@@ -52,3 +52,6 @@
 .like svg, .view svg{
     margin-top: 4px;
 }
+.music {
+cursor: pointer;
+}

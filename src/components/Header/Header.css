@@ -1,7 +1,11 @@
 header#header {
     display: block;
     color: #fff;
-    padding-top: 25px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+.banner-section header#header{
+    margin-bottom: 20px;
 }
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus {
     color: #434343;

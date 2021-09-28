@@ -1,0 +1,52 @@
+.cart-popup .modal-content .music-content .music-head .btn{
+    display: none !important;
+  }
+  .cart-popup .modal-content {
+    background: linear-gradient( 
+130deg, #8200FE, #EA06B1) !important;
+    color: #fff;
+    border: 0px;
+    border-radius: 25px;
+}
+.cart-popup .cross-btn{
+background: #d705bf;
+color: #fff;
+}
+.cart-content {
+    padding: 20px;
+    box-sizing: border-box;
+}
+.cart-popup .modal-dialog {
+    max-width: 414px;
+}
+.cart-popup .cart-details span{
+    font-size: 20px;
+}
+
+.cart-popup .cart-details .ethereum-icon:before {
+    color: #fff;
+    content: '';
+    width: 25px;
+    height: 20px;
+    top: 8px;
+}
+button.btn.btn-theme.cart-button {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    grid-gap: 10px;
+    grid-gap: 10px;
+    gap: 10px;
+    border-color: #c203cf;
+    height: 40px;
+}
+button.btn.btn-theme.cart-button span{
+    color: #bf03d0;
+}
+button.btn.btn-theme.cart-button:hover span {
+    color: #fff;
+}
+button.btn.btn-theme.cart-button:hover{
+    background-color: #202020;
+}

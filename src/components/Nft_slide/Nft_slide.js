@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import { Col, Container, Row, Dropdown } from "react-bootstrap";
 import { Modal, Button, } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlayCircle, faHeart, faPlay, faDotCircle, faTimes, faPause } from '@fortawesome/free-solid-svg-icons';
+import { faPlayCircle, faHeart, faPlay, faDotCircle, } from '@fortawesome/free-solid-svg-icons';
 import MusicLayer from '../../images/music-layers.svg';
 import MusicGraph from '../../images/music-graph.svg';
 import Nft_slide_modal from '../Nft_slide_modal/Nft_slide_modal.js'
 import './Nft_slide.css';
+import Pay_or_play_popup from "../Pay/PayOrPlayPopup";
 
 function Nft_slide() {
-    const [lgShow, setLgShow] = useState(false);
-
-    const hideModel = () => { setLgShow(false) }
+    const [lgShows, setLgShows] = useState(false);
+    const hideModels = () => { setLgShows(false) }
 
     return (
         <>
@@ -39,10 +39,10 @@ function Nft_slide() {
                         <span>8 / 10</span>
                     </div>
                     <div className="button-aligns d-flex">
-                        <button type="button" className="btn btn-theme ethereum-icon d-flex bg-gray" onClick={() => setLgShow(true)}>
+                        <button type="button" className="btn btn-theme ethereum-icon d-flex bg-gray" onClick={() => setLgShows(true)}>
                             Free - Play
                         </button>
-                        <button type="button" className="btn btn-theme ethereum-icon d-flex bg-gradient">
+                        <button type="button" className="btn btn-theme ethereum-icon d-flex bg-gradient" >
                             0,09 ETH
                         </button>
                     </div>
@@ -50,8 +50,9 @@ function Nft_slide() {
 
             </div>
             <div className="modal-wrapper">
-                <Nft_slide_modal hideModel={hideModel} lgShow={lgShow} />
-                </div>
+                <Pay_or_play_popup hideModel={hideModels} lgShows={lgShows} />
+            </div>
+               
             
         </>
     )

@@ -1,11 +1,7 @@
 import React, { useState } from "react";
-import { Col, Container, Row, Dropdown } from "react-bootstrap";
-import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faDotCircle, faTimes, faEt } from '@fortawesome/free-solid-svg-icons';
-import ColorEthereum from '../../images/colored-ethereum.svg';
-import Nft_slide_modal from '../Nft_slide_modal/Nft_slide_modal.js'; 
-import { Link, useHistory } from "react-router-dom";
+import {   faTimes } from '@fortawesome/free-solid-svg-icons';
 import Trending_slide from "../Trending_slide/Trending_slide";
 import './Cart.css'
 

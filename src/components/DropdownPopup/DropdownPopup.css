@@ -1,0 +1,101 @@
+.dropdown-popup{
+    position: relative;
+}
+.dropdown-popup .dropdown-content {
+    width: 100%;
+    max-width: 414px;
+    float: right;
+    background: #101010;
+    position: absolute;
+    right: 0;
+    top: -60px;
+    z-index: 100;
+    border-radius: 25px;
+}
+.dropdown-popup .account-name{
+    font-size: 22px;
+    line-height: 25px;
+}
+.dropdown-popup .amount{
+    font-size: 38px;
+}
+.dropdown-popup .code{
+    word-wrap: break-word;
+    font-size: 13px;
+}
+.dropdown-popup .img-box {
+    text-align: center;
+    background: #202020;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 160px;
+    border-radius: 16px;
+}
+.dropdown-popup .imgs-row{
+ gap: 10px;   
+}
+.dropdown-popup .user-icon img {
+    width: 100px;
+}
+.dropdown-popup hr{
+    border-color: #202020;
+}
+.dropdown-popup .img-box span{
+    display: block;
+    font-size: 16px;
+}
+.dropdown-popup .theme-buttons {
+    background: #202020;
+    padding: 5px;
+    flex: 2;
+    border-radius: 50px;
+}
+.dropdown-popup .theme-row{
+    align-items: center;
+}
+.dropdown-popup .theme-row h5{
+    flex: 1;
+    margin-bottom: 0px;
+    font-family: Gotham;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.16500000655651093px;
+    text-align: left;
+
+}
+.dropdown-popup .btn-group {
+width: 100%;
+text-align: center;
+}
+.dropdown-popup .theme-buttons .btn-primary {
+    color: #fff;
+    background-color: #202020;
+    border-color: #202020;
+    width: 114px;
+    border-radius: 25px;
+}
+.dropdown-popup .btn-check:checked+.btn-primary{
+    background-color: #101010;
+    border-color: transparent;
+}
+.dropdown-popup .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.dropdown-popup .switch-account{
+    font-family: Gotham;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.16500000655651093px;
+    
+}
+.dropdown-popup .border-top {
+    border-top: 1px solid #202020!important;
+}

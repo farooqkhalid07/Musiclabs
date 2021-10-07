@@ -3,7 +3,7 @@
     line-height: 25px;
     color: white;
 }
-.slick-list:before {
+/* .slick-list:before {
     content: '';
     width: 332px;
     height: 405px;
@@ -12,7 +12,7 @@
     position: absolute;
     z-index: 9;
     left: -345px;
-}
+} */
 .trade-nft .top-section {
     position: relative;
     bottom: 0px;

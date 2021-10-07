@@ -14,21 +14,44 @@ import HouseOfCard from "../HouseOfCard/HouseOfCard";
       slidesToShow: 3,
       slidesToScroll: 3,
       arrows: false,
+      responsive: [
+        {
+          breakpoint: 1399,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     };
 function Nft(){
     return(
-        <div className="top-section">
+        <div className="tops-section">
             <Container>
                 <Row>
-                    <Col md={6}>
+                    <Col md={6} xs={8}>
                         <h2 className="sub-heading">Pay or play</h2>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} xs={4}>
                         <div className="float-end">
                             <button type="button" className="btn btn-theme">Show all</button>
                     </div>
                     </Col>
-                    <Slider className="home-slider mt-2 mb-5" {...settings}>
+                    <Slider className="home-slider mt-2" {...settings}>
                         <div className="slide">
                         <Nft_slide/>
                         </div>

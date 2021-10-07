@@ -15,25 +15,27 @@ function SingerDetails(){
         <Header/>
         <Container>
             <Row>
-                <Col>
+                <Col className="mobile-hide">
                     <div className="singerFeatureImg">
                         <img className="img-fluid" src={Singer} />
                     </div>
                 </Col>
                 <Col>
                     <div className="content singer-details-content">
-                        <Link to="/" className="back">
-                            <FontAwesomeIcon icon={faArrowLeft} />
-                        </Link>
-                        <h1 className="title">Alexander Stewart</h1>
-                        <span className="sub-catregory mt-3">Electro</span>
-                        <div className="d-flex mt-3 inline-buttons">
-                            <button className="btn btn-theme ethereum-icon d-flex bg-gradient" type="button">
-                                Invest
-                            </button>
-                            <button className="btn btn-theme bg-white" type="button">
-                                Follow
-                            </button>
+                        <div className="signer-details-mobile-bg">
+                            <Link to="/" className="back">
+                                <FontAwesomeIcon icon={faArrowLeft} />
+                            </Link>
+                            <h1 className="title">Alexander Stewart</h1>
+                            <span className="sub-catregory mt-3">Electro</span>
+                            <div className="d-flex mt-3 inline-buttons">
+                                <button className="btn btn-theme ethereum-icon d-flex bg-gradient" type="button">
+                                    Invest
+                                </button>
+                                <button className="btn btn-theme bg-white" type="button">
+                                    Follow
+                                </button>
+                            </div>
                         </div>
                         <div className="tabs mt-4">
                             <LibraryTabs/>

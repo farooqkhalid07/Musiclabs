@@ -17,12 +17,15 @@ function Home(){
                 <Header/>
                 <Banner/>
              </div>
-             <Nft/>
+             <div className="top-section">
+             <  Nft/>
+             </div>
              <div className="sec-bg-gradient">
                 <Trending_slider/>
                 <Golden_West/>
-                <Trending_slider/>
              </div>
+                <Trending_slider/>
+             
         </React.Fragment>
     )
 }

@@ -47,3 +47,18 @@ span.search-icon {
     height: 48px;
     color: #fff;
 }
+.user-icon{
+    cursor: pointer;
+}
+/* 
+#header #basic-navbar-nav .navbar-nav{
+    position: absolute;
+    background: #202020;
+    z-index: 10;
+    border-radius: 18px;
+        border-top-right-radius: 18px;
+    right: 0;
+    padding: 30px 0px;
+    border-top-right-radius: 0px;
+    width: 100%;
+} */

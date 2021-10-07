@@ -4,7 +4,6 @@ import { Modal, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faDotCircle, faTimes, faPause } from '@fortawesome/free-solid-svg-icons';
 import PayPlayBg from '../../images/Pay-play-bg.png';
-import Nft_slide_modal from '../Nft_slide_modal/Nft_slide_modal.js'; 
 import { Link, useHistory } from "react-router-dom";
 
 
@@ -22,17 +21,17 @@ function Pay_or_play_popup(props) {
             >
                 <Modal.Body>
                     <Row>
-                        <Col>
+                        <Col className="mobile-hide">
                             <div className="left-side-constent text-center">
                                <img className="img-fluid" src={PayPlayBg} />
                             </div>
                         </Col>
                         <Col>
-                            <div className="right-side-content text-center">
+                            <div className="pay-or-play-mobile-bg right-side-content text-center">
                                 <div className="cross-btn float-end" onClick={() => props.hideModel()}>
                                     <FontAwesomeIcon icon={faTimes} />
                                 </div>
-                                <h1 className="title pt-5 mt-5 mb-5">Pay <br/> or play</h1>
+                                <h1 className="title pay-title">Pay<br/> or play</h1>
                                 <p>
                                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                                     Velit officia consequat duis enim velit mollit. 

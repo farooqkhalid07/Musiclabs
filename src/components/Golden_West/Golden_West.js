@@ -11,19 +11,19 @@ function Golden_West() {
         <div className="golden-bg">
             <Container>
                 <Row>
-                    <Col md={7}>
+                    <Col md={7} xs={12} className="mobile-hide">
                         <div className="image">
                             <img src={Golden_West_Banner} alt="" className="img-fluid" />
                         </div>
                     </Col>
-                    <Col md={5}>
-                        <div className="detail">
+                    <Col md={5} xs={12}>
+                        <div className="detail mobile-bg-set">
                             <div className="profile-image">
                                 <img src={Profile_img} alt="" className="img-fluid" />
                             </div>
                             <h2 className="sub-heading">The Golden West</h2>
                             <h5>Ethan Luck</h5>
-                            <div className="d-flex price-section justify-content-between align-item-end">
+                            <div className="price-section">
                                 <div className="d-flex flex-column">
                                     <div className="progress-label">987 € <span>/ 10 000 €</span></div>
                                     <div className="progress">

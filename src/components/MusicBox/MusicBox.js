@@ -5,7 +5,7 @@ import './MusicBox.css'
 
 function MusicBox(){
     return(
-        <Col md={4}>
+        <Col md={4} xs={6}>
             <div className="music-box mt-3">
                 <img src={MusicImg} className="img-fluid" />
                 <div className="music-content ms-2">

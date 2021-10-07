@@ -1,7 +1,15 @@
-.golden-bg {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 52.25%, #101010 97.82%),
-        linear-gradient(180deg, #101010 2.53%, rgba(0, 0, 0, 0) 42.41%);
+/* .golden-bg {
+    background-image: url(../../images/golden_west_bg.svg);
     padding: 90px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.golden-bg {
+    background-image: url(../../images/golden_west_bg.svg);
+    padding: 226px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .golden-bg .detail {
     padding: 50px;
@@ -29,7 +37,13 @@
     max-width: 100%;
     background: #202020;
     border-radius: 40px;
+    height: 6px;
 }
 .price-section .progress .progress-bar {
     background: #f7f7f7;
+}
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
 }

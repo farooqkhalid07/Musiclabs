@@ -29,6 +29,7 @@
 }
 .music-head{
     gap: 20px;
+    align-items: center;
 }
 .bg-gradient{
     background: linear-gradient( 
@@ -40,10 +41,9 @@
   .music-list button.btn.btn-theme{
     width: 100%;
     max-width: 110px;
-    height: 36px;
+    height: 32px;
     justify-content: center;
     font-size: 13px;
-    margin-top: 20px;
 }
 .like, .view {
     display: flex;

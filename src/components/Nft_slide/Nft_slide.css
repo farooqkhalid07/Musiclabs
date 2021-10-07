@@ -3,13 +3,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 404px;
+    border-radius: 18px;
+    padding: 185px 30px 0px;
+    color: #fff;
+    background-position: center center;
+    margin-bottom: 30px;
 }
 .home-slider .slide{
     padding: 0px 15px;
-}
-.home-slider .slide-content {
-    padding: 185px 30px 0px;
-    color: #fff;
 }
 .slide-content .play-icon svg{
     color: #ffffff73;
@@ -31,17 +32,7 @@ font-size: 13px;
 gap: 30px;
 }
 
-.ethereum-icon:before {
-    color: #fff;
-    content: '';
-    width: 20px;
-    background: url('../../images/ethereum.svg');
-    height: 20px;
-    display: block;
-    background-repeat: no-repeat;
-    position: relative;
-    top: 5px;
-}
+
 .subtract {
     font-size: 13px;
     gap: 10px;
@@ -62,10 +53,13 @@ gap: 30px;
 
 .left-side-content{
     background: url(../../images/house-cards-bg.svg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 851px;
     padding-top: 265px;
+    background-position: center center;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
 }
 
 .house-of-cards .modal-dialog{

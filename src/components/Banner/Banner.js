@@ -68,7 +68,7 @@ function Banner(){
                     </div>
                     <div className="banner-content">
                         <h1 className="banner-heading">Birdy nam nam<br/> on music labs</h1>
-                        <button type="button" className="btn banner-btn">Discover</button>
+                        <button type="button" className="btn btn-theme banner-btn bg-gradient">Discover</button>
                     </div>
                 </Col>
             </Row>

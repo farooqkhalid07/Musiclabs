@@ -11,7 +11,7 @@ function Trade(){
         <Header/>
         <Container>
             <Row>
-                <Col md={8} sm={12} className="mt-5">
+                <Col md={8} sm={12}>
                     <h1 className="title">Trade</h1>
                     <p className="paragraph-text">
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 

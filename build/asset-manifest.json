@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3493546.chunk.css",
-    "main.js": "/static/js/main.e4301b29.chunk.js",
-    "main.js.map": "/static/js/main.e4301b29.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5de8e103.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5de8e103.js.map",
+    "main.css": "/static/css/main.7c8939f9.chunk.css",
+    "main.js": "/static/js/main.3db1a875.chunk.js",
+    "main.js.map": "/static/js/main.3db1a875.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f632ce1e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f632ce1e.js.map",
     "static/css/2.f924abfe.chunk.css": "/static/css/2.f924abfe.chunk.css",
-    "static/js/2.7b157264.chunk.js": "/static/js/2.7b157264.chunk.js",
-    "static/js/2.7b157264.chunk.js.map": "/static/js/2.7b157264.chunk.js.map",
-    "static/js/3.46b823d9.chunk.js": "/static/js/3.46b823d9.chunk.js",
-    "static/js/3.46b823d9.chunk.js.map": "/static/js/3.46b823d9.chunk.js.map",
+    "static/js/2.0b5ebb11.chunk.js": "/static/js/2.0b5ebb11.chunk.js",
+    "static/js/2.0b5ebb11.chunk.js.map": "/static/js/2.0b5ebb11.chunk.js.map",
+    "static/js/3.083f6e23.chunk.js": "/static/js/3.083f6e23.chunk.js",
+    "static/js/3.083f6e23.chunk.js.map": "/static/js/3.083f6e23.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f924abfe.chunk.css.map": "/static/css/2.f924abfe.chunk.css.map",
-    "static/css/main.f3493546.chunk.css.map": "/static/css/main.f3493546.chunk.css.map",
-    "static/js/2.7b157264.chunk.js.LICENSE.txt": "/static/js/2.7b157264.chunk.js.LICENSE.txt",
+    "static/css/main.7c8939f9.chunk.css.map": "/static/css/main.7c8939f9.chunk.css.map",
+    "static/js/2.0b5ebb11.chunk.js.LICENSE.txt": "/static/js/2.0b5ebb11.chunk.js.LICENSE.txt",
     "static/media/Golden-west-banner.cebd6dc1.png": "/static/media/Golden-west-banner.cebd6dc1.png",
-    "static/media/Pay-play-bg.58834fd6.png": "/static/media/Pay-play-bg.58834fd6.png",
+    "static/media/Home.css": "/static/media/header-bg.e1abf0b5.png",
     "static/media/Singer.68e32687.svg": "/static/media/Singer.68e32687.svg",
     "static/media/Nft_slide.css": "/static/media/house-cards-bg.68e32687.svg",
-    "static/media/Home.css": "/static/media/header-bg.e1abf0b5.png",
+    "static/media/Nft_slide_modal.css": "/static/media/ethereum.6d0af8d7.svg",
+    "static/media/Golden_West.css": "/static/media/golden_west_bg.95611be6.svg",
     "static/media/music-graph.f1ccec99.svg": "/static/media/music-graph.f1ccec99.svg",
     "static/media/music-img.05d67c40.png": "/static/media/music-img.05d67c40.png",
     "static/media/music-layers.5998928b.svg": "/static/media/music-layers.5998928b.svg",
@@ -27,10 +28,10 @@
     "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.5de8e103.js",
+    "static/js/runtime-main.f632ce1e.js",
     "static/css/2.f924abfe.chunk.css",
-    "static/js/2.7b157264.chunk.js",
-    "static/css/main.f3493546.chunk.css",
-    "static/js/main.e4301b29.chunk.js"
+    "static/js/2.0b5ebb11.chunk.js",
+    "static/css/main.7c8939f9.chunk.css",
+    "static/js/main.3db1a875.chunk.js"
   ]
 }

@@ -5,6 +5,7 @@ body.dark-mode {
 .banner-section{
     background-image: url('../../images/header-bg.png');
     background-size: cover;
+    background-position: center center;
 }
 div#root {
     overflow: hidden;
@@ -15,14 +16,302 @@ div#root {
 .slick-list:before {
     content: '';
     width: 290px;
-    height: 405px;
+    height: 220px;
     display: block;
     background: #101010;
     position: absolute;
     z-index: 9;
     left: -304px;
 }
+
 .top-section {
     position: relative;
     bottom: 120px;
 }
+
+.dark-mode .top-section .slick-list:before {
+    content: '';
+    width: 290px;
+    height: 405px;
+    display: block;
+    position: absolute;
+    z-index: 9;
+    left: -304px;
+    background: linear-gradient(
+180deg , #000 0%,#000 12%,#101010 13%,#101010 118%);
+}
+
+/* Light Mode Styling */
+
+.light-mode .music-content{
+color: #000;
+}
+.light-mode .sub-heading{
+  background: linear-gradient(to right, #DE05BA 0%, #9000F3  100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.light-mode .top-section .sub-heading{
+    -webkit-text-fill-color: #fff;
+}
+.light-mode  .golden-bg{
+    padding: 90px 0px;
+}
+
+.light-mode .top-section .slick-list:before{
+    content: '';
+    width: 290px;
+    height: 405px;
+    display: block;
+    position: absolute;
+    z-index: 9;
+    left: -304px;
+    background: linear-gradient( 
+        180deg , #000 0%,#000 12.7%,#ffffff 13%,#ffffff 118%);
+}
+
+.light-mode .slick-list:before{
+    background-color: white;
+}
+.light-mode section.trending-section {
+    padding-top: 60px;
+}
+.trade-nft {
+    padding-top: 60px;
+}
+.mobile-hide {
+    display: block;
+}
+            
+.pay-or-play-mobile-bg h1.pay-title {
+    margin: 90px 0px 50px;
+}
+.pay-or-play-mobile-bg .buttons {
+    margin-top: 90px;
+}
+/* Start Media Querys*/
+@media (max-width: 1399px) { 
+    .btn.btn-theme{
+        font-size: 12px;
+    } 
+
+}
+
+@media (max-width: 1199px) { 
+    .home-slider .slide-content {
+        height: 307px !important;
+        padding: 100px 15px 0px !important;
+    }
+    .client-details h5 {
+        font-size: 13px !important;
+    }
+    .slide-content h3{
+        font-size: 20px !important;
+    }
+    .subtract span{
+        font-size: 10px;
+    }
+    .btn.btn-theme.ethereum-icon{
+        padding: 5px 8px;
+    }
+    .like, .view{
+        font-size: 12px;
+    }
+    .price-section{
+        display: block !important;
+    }
+    .golden-bg .detail {
+        padding: 20px !important;
+            padding-top: 20px;
+        padding-top: 7px !important;
+    }
+    .golden-bg .detail h2.sub-heading {
+        margin-top: 10px;
+        margin-bottom: 12px;
+        font-size: 22px;
+    }
+    .golden-bg .detail {
+        padding: 20px !important;
+    }    
+    .golden-bg{
+        padding: 120px 0px !important;
+    }
+    .price-section .btn {
+        margin-top: 20px;
+    }
+    .slick-list::before {
+        height: 300px;
+    }
+}
+
+
+@media (max-width: 991px) { 
+
+    .top-section{
+        bottom: 60px;
+    }
+    .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus{
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    .slick-list::before{
+        height: 240px;
+    }
+    .golden-bg .detail {
+        padding: 20px !important;
+            padding-top: 20px;
+        padding-top: 7px !important;
+    }
+    .golden-bg .detail h2.sub-heading {
+        margin-top: 10px;
+        margin-bottom: 12px;
+        font-size: 22px;
+    }
+    .user-icon {
+        margin-top: 6px;
+    }
+    .banner-top-dropdown .btn{
+        font-size: 13px;
+    }
+    .music-head{
+        gap: 0;
+    }
+    .golden-bg{
+        padding: 90px 0px !important;
+    }
+    .golden-bg .detail h5{
+        margin-bottom: 10px !important;
+    }
+}
+@media (max-width: 991px) {
+    .dropdown-popup .account-name {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .dropdown-popup .amount {
+        font-size: 32px;
+    }
+    .sub-heading{
+        font-size: 28px;
+    }
+    .dark-mode .top-section .slick-list:before{
+        background: linear-gradient( 
+            180deg , #000 0%,#000 0%,#101010 3%,#101010 118%);
+    }
+    .golden-bg {
+        padding: 20px 0px !important;
+    }
+
+    .detail.mobile-bg-set {
+        background-image: url(../../images/golden_west_mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 50% !important;
+        border-radius: 18px;
+    }
+    #header .navbar-toggler{
+        padding: 0px;
+        border: none;
+    }
+    #header .navbar-toggler .navbar-toggler-icon{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    header#header{
+        margin-bottom: 10px !important;
+    }
+    .title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+ }
+ @media (max-width: 767px) {
+    .mobile-hide {
+        display: none;
+    }
+    .slick-slide.slick-active.slick-current .music-list, .slick-slide.slick-active .slide{
+        padding-left: 0px !important;
+    }
+    .paragraph-text{
+        font-size: 16px !important;
+    }
+    #header .navbar-toggler .navbar-toggler-icon{
+        margin-top: 7px;
+    }
+    .pay-or-play-mobile-bg{
+        background-image: url(../../images/Pay-play-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 18px;
+    }
+    .library-tabs-section .nav-tabs .nav-link{
+        font-size: 18px !important;
+    }
+    .library-tabs-section .nav-tabs {
+        display: flex;
+        justify-content: center;
+    }
+    .left-side-content {
+        height: 580px !important;
+        padding-top: 125px !important;
+        border-radius: 18px !important;
+    }
+    .right-side-content{
+        position: static !important;
+    }
+    .house-of-cards .right-side-content .scroll{
+        margin-top: 0px !important;
+    }
+    .pay-or-play-mobile-bg h1.pay-title br {
+        display: none;
+    }
+    .pay-or-play-mobile-bg h1.pay-title{
+        margin-top: 0px !important;
+    }
+    .signer-details-mobile-bg {
+        text-align: center;
+        background-image: url(../../images/Singer.svg);
+    }
+ }
+ @media (max-width: 575px) {
+    .banner-top-dropdown .btn{
+        font-size: 10px !important;
+        padding: 5px 8px !important;
+    }
+    .banner-content{
+        padding-bottom: 30% !important;
+    }
+    .home-slider .slide{
+        padding: 0px 5px !important;
+    }
+   .slick-list::before{
+        width: 300px !important;
+    }
+    .music-list {
+        padding: 0 5px !important;
+    }
+    .banner-top-dropdown .btn{
+        margin: 0px 5px !important;
+    }
+    span.search-icon {
+        top: 8px !important;
+        font-size: 13px !important;
+    }
+    .header-search .form-control{
+        height: 37px !important;
+    }
+    .library-tabs-section .nav-tabs .nav-link{
+        font-size: 18px;
+    }
+     .music-head .btn {
+        max-width: 90px;
+        width: 100%;
+    }
+ }
+
+ @media (max-width: 420px) {
+    #header .navbar-toggler .navbar-toggler-icon {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+ }

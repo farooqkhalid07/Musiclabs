@@ -20,15 +20,15 @@ function Header() {
         <header id="header">
             <Container>
                 <Row>
-                    <Col md={2}>
+                    <Col md={2} sm={4} xs={4}>
                         <div className="logo-container mt-2">
                             <Link className="logo-img" to="/">
                                 <img className="img-fluid" src="images/musiclab-logo.svg" />
                             </Link>
                         </div>
                     </Col>
-                    <Col md={8}>
-                        <Navbar expand="lg" className="pos-stat">
+                    <Col md={8} sm={6} xs={6}>
+                        <Navbar expand="lg" className="pos-stat navbar-dark">
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <ul className="navbar-nav m-auto">
@@ -40,8 +40,8 @@ function Header() {
                             </Navbar.Collapse>
                         </Navbar>
                     </Col>
-                    <Col md={2}>
-                        <div className="right-icon float-end mt-2">
+                    <Col md={2} sm={2} xs={2}>
+                        <div className="user-icon float-end">
                             <img className="img-fluid" onClick={() => setisopen(true)} src="images/user-icon.svg" />
                         </div>
                     </Col>

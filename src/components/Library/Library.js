@@ -12,7 +12,7 @@ function Library() {
         <Container>
             <Row>
                 <Col md={12}>
-                    <h1 className="title mt-5 mb-5">Library</h1>
+                    <h1 className="title mb-5">Library</h1>
                 </Col>
                 <Col md={6}>
                     <h2 className="sub-heading">Last buy</h2>

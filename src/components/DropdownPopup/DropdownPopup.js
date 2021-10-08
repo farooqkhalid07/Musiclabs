@@ -1,12 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './DropdownPopup.css';
-import {ToggleButtonGroup, ToggleButton} from "react-bootstrap";
+import { ToggleButtonGroup, ToggleButton } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import $ from 'jquery';
 
 
 function Dropdown(props) {
+
+    const lightFunction = () => {
+        $("body").removeClass("dark-mode");
+        $("body").addClass("light-mode");
+    }
+    const darkFunction = () => {
+        $("body").removeClass("light-mode");
+        $("body").addClass("dark-mode");
+    }
+
     return (
         <>
             {props.isopen ?
@@ -14,7 +25,7 @@ function Dropdown(props) {
                     <div className="dropdown-content">
                         <div className="p-4">
                             <div className="user-icon" >
-                                <img className="img-fluid" src="images/user-icon.svg" />
+                                <img className="img-fluid" src="/images/user-icon.svg" />
                             </div>
                             <div className="cross-btn float-end" onClick={() => props.isopenhide()}>
                                 <FontAwesomeIcon icon={faTimes} />
@@ -50,11 +61,11 @@ function Dropdown(props) {
                             <div className="theme-row d-flex justify-content-between">
                                 <h5>Theme</h5>
                                 <div className="theme-buttons">
-                                    <ToggleButtonGroup type="radio" name="options" defaultValue={2}>
-                                        <ToggleButton id="tbg-radio-2" value={2}>
+                                    <ToggleButtonGroup type="radio" name="options" defaultValue={3}>
+                                        <ToggleButton id="tbg-radio-2" value={2} onClick={() => lightFunction()}>
                                             Light
                                         </ToggleButton>
-                                        <ToggleButton id="tbg-radio-3" value={3}>
+                                        <ToggleButton id="tbg-radio-3" value={3} onClick={() => darkFunction()} >
                                             Dark
                                         </ToggleButton>
                                     </ToggleButtonGroup>
@@ -62,9 +73,9 @@ function Dropdown(props) {
                             </div>
                         </div>
                         <div className="p-4 border-top text-center">
-                            <span className="switch-account">
+                            <a href="/artist/dashboard" className="switch-account">
                                 Switch to artist account
-                            </span>
+                            </a>
                         </div>
                     </div>
                 </div>

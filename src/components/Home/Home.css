@@ -1,6 +1,3 @@
-body.dark-mode {
-    background: #101010;
-} 
 
 .banner-section{
     background-image: url('../../images/header-bg.png');
@@ -46,13 +43,18 @@ div#root {
 .light-mode .music-content{
 color: #000;
 }
-.light-mode .sub-heading{
-  background: linear-gradient(to right, #DE05BA 0%, #9000F3  100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.light-mode .sub-heading , .light-mode .title {
+    background-image: linear-gradient(45deg, #8200FE 17%, #EA06B1 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.light-mode .artist-dashboard .sub-heading , .light-mode .artist-dashboard .title {
+    background-image: linear-gradient(45deg, #8CC600 17%, #1AE0E0 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .light-mode .top-section .sub-heading{
-    -webkit-text-fill-color: #fff;
+    /* -webkit-text-fill-color: #fff; */
 }
 .light-mode  .golden-bg{
     padding: 90px 0px;
@@ -67,11 +69,11 @@ color: #000;
     z-index: 9;
     left: -304px;
     background: linear-gradient( 
-        180deg , #000 0%,#000 12.7%,#ffffff 13%,#ffffff 118%);
+        180deg , #000 0%,#000 12.7%,#f7f7f7 13%,#f7f7f7 118%);
 }
 
 .light-mode .slick-list:before{
-    background-color: white;
+    background-color: #f7f7f7;
 }
 .light-mode section.trending-section {
     padding-top: 60px;
@@ -89,6 +91,23 @@ color: #000;
 .pay-or-play-mobile-bg .buttons {
     margin-top: 90px;
 }
+
+.artist-dashboard .banner-section{
+    height: 100vh;
+}
+.artist-dashboard .banner-section{
+    background-image: url('../../images/artist-banner-bg.png');
+    position: relative;
+}
+/* .artist-dashboard .banner-section:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.76) 11.64%, rgba(0, 0, 0, 0) 50.51%), linear-gradient(359.47deg, #101010 3.4%, rgba(0, 0, 0, 0) 30.9%);
+} */
 /* Start Media Querys*/
 @media (max-width: 1399px) { 
     .btn.btn-theme{

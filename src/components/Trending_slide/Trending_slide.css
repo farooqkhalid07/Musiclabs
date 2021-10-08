@@ -55,3 +55,9 @@
 .music {
 cursor: pointer;
 }
+
+.artist-dashboard .music-list button.btn.btn-theme{
+    width: auto;
+    max-width: none;
+    min-width: 110px;
+}

@@ -210,3 +210,74 @@ button.btn.btn-theme.bg-white {
 .artist-dashboard{
   min-height: 100vh;
 }
+.library-tabs-section .nav-tabs{
+  justify-content: center;
+}
+.graphing{
+  display: flex;
+}
+.graph1{
+  margin-top: 12px;
+}
+.graph1 img{
+  margin-left: 36px;
+}
+.dates ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.dates ul li{
+  color: #707070;
+  font-size: 16px;
+}
+.graph2 span{
+  position: absolute;
+  top: 302px;
+  right: 97px;
+  font-size: 16px;
+  background-image: linear-gradient(45deg, #8CC600 17%, #1AE0E0 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.data{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+.data1{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.data1 p{
+  color: #707070;
+  font-size: 16px;
+}
+.data1 span{
+  background-image: linear-gradient(
+45deg, #8CC600 17%, #1AE0E0 50%);
+    -webkit-background-clip: text;
+    font-size: 16px;
+    -webkit-text-fill-color: transparent;
+}
+.data2{
+  margin-left: 100px;
+}
+.data2 p{
+  color: #707070;
+  font-size: 16px;
+}
+.lib-tabs .nav-tabs .nav-link.active{
+  border-bottom: 1px solid #8CC600 !important;
+}
+.data2 span{
+  background-image: linear-gradient(
+45deg, #8CC600 17%, #1AE0E0 50%);
+    -webkit-background-clip: text;
+    font-size: 16px;
+    -webkit-text-fill-color: transparent;
+}
+.faning{
+  margin-top: 50px;
+  margin-bottom: 55px;
+}

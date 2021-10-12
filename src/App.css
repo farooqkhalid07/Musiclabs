@@ -300,10 +300,16 @@ button.btn.btn-theme.bg-white {
   top: 55px;
 }
 .upload-modal .modal-fullscreen .modal-body{
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.upload-modal .modal-body:before {
+
+.upload-modal .modal-fullscreen .modal-body .border-right{
+  border-right: 1px solid #393939;
+}
+/* .upload-modal .modal-body:before {
   content: '';
   position: absolute;
   left: 0;
@@ -314,20 +320,41 @@ button.btn.btn-theme.bg-white {
   width: 1px;
   border: 1px solid #393939;
   background: #393939;
-}
+} */
 .upload-modal .content-wrapper{
   text-align: center;
-  max-width: 470px;
+  /* max-width: 470px; */
   margin: 0 auto;
+  padding: 0 100px;
 }
 .upload-modal .content-wrapper h1{
   font-size: 60px;
   line-height: 80px;
   text-transform: uppercase;
 }
-.upload-modal .content-wrapper p{
+.upload-modal .content-wrapper .content{
   margin-top: 35px;
   margin-bottom: 100px;
+  max-width: 515px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.select-file-btn {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 30px;
+}
+.select-file-btn input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.upload-modal .file-type-info {
+  margin-top: 60px;
 }
 .upload-modal .btn-white {
   background: #F7F7F7;
@@ -338,7 +365,125 @@ button.btn.btn-theme.bg-white {
   font-weight: 700;
   padding: 10px 20px;
 }
+.upload-modal .btn-outline-white {
+  background: transparent;
+  color: #fff;
+  border-radius: 96px;
+  border: 1px solid #fff;
+  height: 52px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
 .upload-modal .btn-white:hover {
   background: transparent;
   border-color: #fff;
+}
+.song-info form .form-label {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+.song-info form .form-control {
+  min-height: 95px;
+  background: #282828;
+  border: none;
+}
+.upload-modal .modal-fullscreen .modal-footer {
+  justify-content: center;
+  border: none;
+}
+.upload-modal .btn-gray {
+  background: #202020;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  width: 52px;
+  height: 52px;
+  margin-right: 20px;
+}
+.quantity-prices .item {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.quantity-prices .item .description {
+  width: 60%;
+}
+.quantity-prices .description h2 {
+    width: 50%;
+    text-align: left;
+    font-size: 44px;
+    line-height: 52px;
+}
+.quantity-prices .description p {
+    width: 50%;
+    text-align: left;
+    font-size: 13px;
+}
+.quantity-prices .currency {
+  margin-right: 40px;
+}
+.quantity-prices .value {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  line-height: 35px;
+}
+.quantity-prices .value span{
+  border-top: 1px solid #424242
+}
+.quantity-prices .price {
+    align-items: flex-start;
+}
+.quantity {
+  align-items: center;
+}
+.quantity input[type="text"] {
+    width: 50px;
+    background: no-repeat;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.quantity  span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: #202020;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quantity-prices .nav-tabs {
+  border: none;
+  background: #202020;
+  margin: 0 auto;
+  width: 410px;
+  padding: 8px;
+  border-radius: 48px;
+}
+
+.quantity-prices .nav-tabs li.nav-item {
+  width: 50%;
+  text-align: center;
+}
+
+.quantity-prices .nav-tabs li.nav-item .nav-link.active {
+  background: #101010;
+  color: #fff;
+}
+
+.quantity-prices .nav-tabs li.nav-item .nav-link {
+  width: 100%;
+  height: 56px;
+  border-radius: 48px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #BEBEBE;
+}
+.upload-modal .quantity-prices .content-wrapper .content {
+  margin-bottom: 50px;
 }

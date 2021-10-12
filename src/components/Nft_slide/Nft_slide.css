@@ -99,6 +99,7 @@ span.singer-name {
     width: 30px;
     height: 30px;
     background: #202020;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;

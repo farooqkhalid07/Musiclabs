@@ -20,41 +20,34 @@ function Header() {
     return (
         <>
             <header id="header">
-                <Container>
-                    <Row>
-                        <Col md={2} sm={4} xs={4}>
-                            <div className="logo-container mt-2">
-                                <Link className="logo-img" to="/">
-                                    <img className="img-fluid" src="/images/musiclab-logo.svg" />
-                                </Link>
-                            </div>
-                        </Col>
-                        <Col md={7} sm={6} xs={6}>
-                            <Navbar expand="lg" className="pos-stat navbar-dark">
-                                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                                <Navbar.Collapse id="basic-navbar-nav">
-                                    <ul className="navbar-nav m-auto">
-                                        <span className="material-icons-outlined"></span>
-                                        <li className={`nav-item ${pathname === '/artist/dashboard' ? 'active' : ''}`}><Link className="nav-link" to="/artist/dashboard"><i className="nav-icon"><FontAwesomeIcon icon={faThLarge} /></i>Dashboard </Link></li>
-                                        <li className={`nav-item ${pathname === '/artist/business' ? 'active' : ''}`}><Link className="nav-link" to="/artist/business"><i className="nav-icon"><FontAwesomeIcon icon={faChartLine} /></i>Business</Link></li>
-                                        <li className={`nav-item ${pathname === '/artist/songs-projects' ? 'active' : ''}`}><Link className="nav-link" to="/artist/songs-projects"><i className="nav-icon"><FontAwesomeIcon icon={faPlayCircle} /></i>Songs & Projects</Link></li>
-                                    </ul>
-                                </Navbar.Collapse>
-                            </Navbar>
-                        </Col>
-                        <Col className="d-flex justify-content-end align-items-center gap-4" md={3} sm={2} xs={2}>
-                            <button type="button" className="btn btn-theme upload-icon d-flex bg-gradient-green" onClick={() => setLgShows(true)}>Upload / Create</button>
-                            <div className="user-icon float-end">
+                <Navbar collapseOnSelect expand="lg" className="pos-stat navbar-dark">
+                    <Container>
+                        <Navbar.Brand className="logo-img" href="/"><img className="img-fluid" src="/images/musiclab-logo.svg" /></Navbar.Brand>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav">
+                            <ul className="navbar-nav m-auto">
+                                <span className="material-icons-outlined"></span>
+                                <li className={`nav-item ${pathname === '/artist/dashboard' ? 'active' : ''}`}><Link className="nav-link" to="/artist/dashboard"><i className="nav-icon"><FontAwesomeIcon icon={faThLarge} /></i>Dashboard </Link></li>
+                                <li className={`nav-item ${pathname === '/artist/business' ? 'active' : ''}`}><Link className="nav-link" to="/artist/business"><i className="nav-icon"><FontAwesomeIcon icon={faChartLine} /></i>Business</Link></li>
+                                <li className={`nav-item ${pathname === '/artist/songs-projects' ? 'active' : ''}`}><Link className="nav-link" to="/artist/songs-projects"><i className="nav-icon"><FontAwesomeIcon icon={faPlayCircle} /></i>Songs & Projects</Link></li>
+                                <button type="button" className="d-flex d-lg-none btn btn-theme upload-icon d-flex bg-gradient-green" onClick={() => setLgShows(true)}><span>Upload / Create</span></button>
+                            
+                            </ul>
+                        </Navbar.Collapse>
+                        <div className="user-icon d-flex justify-content-end align-items-center gap-4 " >
+                            <button type="button" className="d-none d-lg-flex btn btn-theme upload-icon d-flex bg-gradient-green" onClick={() => setLgShows(true)}><span>Upload / Create</span></button>
+                            <div className=" float-end">
                                 <img className="img-fluid" onClick={() => setisopen(true)} src="/images/user-icon.svg" />
                             </div>
-                        </Col>
-                        <DroppdownPopup isopenhide={isopenhide} isopen={isopen} />
+                        </div>
+                    </Container>
+                    
+                </Navbar>
+                <DroppdownPopup isopenhide={isopenhide} isopen={isopen} />
 
-                    </Row>
-                </Container>
-            </header>
+               </header>
             <div className="modal-wrapper">
-                <UploadModal hideModel={hideModels} lgShows={lgShows}/>
+                <UploadModal hideModel={hideModels} lgShows={lgShows} />
             </div>
         </>
     )

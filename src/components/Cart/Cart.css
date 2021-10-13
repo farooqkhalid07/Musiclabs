@@ -45,7 +45,7 @@ button.btn.btn-theme.cart-button span{
     color: #bf03d0;
 }
 button.btn.btn-theme.cart-button:hover span {
-    color: #fff;
+    color: #bf03d0;
 }
 button.btn.btn-theme.cart-button:hover{
     background-color: #202020;

@@ -4,20 +4,13 @@ import { Modal, Button, } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDotCircle, faTimes, faPause, faChevronRight, faChevronLeft, faPlus, faMinus, faCloudUploadAlt } from '@fortawesome/free-solid-svg-icons';
 import EthIcon from '../../../images/ethereum.svg'
+import Upload from '../../../images/upload.png'
 
 function Upload_create_modal(props) {
     const [key, setKey] = useState('fixed');
-    const [Info, setInfo] = useState(true);
-    const [upload, setupload] = useState(false);
-    const [songinfo, setsonginfo] = useState(false);
-    const [quantity, setquantity] = useState(false);
     const [count, setCount] = useState(0);
 
-    function setuploadview() {
-        setInfo(false);
-        setupload(true);
-
-    }
+   
     return (
         <>
             <Modal fullscreen={true}
@@ -38,14 +31,14 @@ function Upload_create_modal(props) {
                                 <Col className="border-right" md={6}>
                                     <div className="content-wrapper">
                                         <h1>upload a song</h1>
-                                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                        <p className="content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                         <Button className="btn-white right-arrow" onClick={() => setTimeout(() => setCount(x => x + 1), 100)}>Upload <FontAwesomeIcon className="ms-1" icon={faChevronRight} /></Button>
                                     </div>
                                 </Col>
                                 <Col md={6}>
                                     <div className="content-wrapper">
                                         <h1>CREATE A PROJECT</h1>
-                                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                        <p className="content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                         <Button className="btn-white right-arrow" onClick={() => setTimeout(() => setCount(x => x + 1), 100)}>Create <FontAwesomeIcon className="ms-1" icon={faChevronRight} /></Button>
                                     </div>
                                 </Col>
@@ -56,6 +49,9 @@ function Upload_create_modal(props) {
                             <Row>
                                 <Col md={12}>
                                     <div className="content-wrapper">
+                                        <div className="icon">
+                                            <img src={Upload} alt="" className="img-fluid" />
+                                        </div>
                                         <h1>upload your file</h1>
                                         <p className="content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                         <div className="select-file-btn"><input type="file" /><Button className="btn-outline-white right-arrow"><FontAwesomeIcon className="me-2" icon={faCloudUploadAlt} />Choose my file </Button></div>
@@ -200,10 +196,13 @@ function Upload_create_modal(props) {
 
                     </Container>
                 </Modal.Body>
-                {count > '0' && count < '3' ? < Modal.Footer >
+                {count > '0' && count < '4' ? < Modal.Footer >
                     <div className=" footer-btns">
                         <Button className="btn-gray right-arrow" onClick={() => setTimeout(() => setCount(x => x - 1), 100)}> <FontAwesomeIcon icon={faChevronLeft} />  </Button>
-                        <Button className="btn-white right-arrow" onClick={() => setTimeout(() => setCount(x => x + 1), 100)} >Confirm <FontAwesomeIcon className="ms-1" icon={faChevronRight} />  </Button>
+                        {count < 3 ? <Button className="btn-white right-arrow" onClick={() => setTimeout(() => setCount(x => x + 1), 100)} >Confirm <FontAwesomeIcon className="ms-1" icon={faChevronRight} />  </Button> : <a href="/artist/dashboard" className="btn-white right-arrow" onClick={() => setTimeout(() => setCount(x => x + 1), 100)} >Confirm <FontAwesomeIcon className="ms-1" icon={faChevronRight} />  </a>}
+
+
+
                     </div>
                 </Modal.Footer > : ''}
 

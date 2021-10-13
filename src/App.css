@@ -4,7 +4,7 @@ body {
 }
 body.dark-mode {
   background: #101010 !important;
-} 
+}
 
 h1,
 h2,
@@ -21,13 +21,13 @@ h5,
 .dropdown-toggle {
   font-family: "Gotham";
 }
-h1{
+h1 {
   font-size: 44px;
 }
-h2{
+h2 {
   font-size: 28px;
 }
-h3{
+h3 {
   font-size: 22px;
 }
 .btn.btn-theme {
@@ -55,7 +55,8 @@ h3{
   color: #fff;
   border: none !important;
 }
-.btn.btn-theme.bg-gradient:hover ,.btn.btn-theme.bg-gradient-green:hover {
+.btn.btn-theme.bg-gradient:hover,
+.btn.btn-theme.bg-gradient-green:hover {
   color: #fff !important;
   background: #202020 !important;
   border-color: #fff !important;
@@ -64,16 +65,16 @@ h3{
   background-color: #4c4c4d !important;
   border-color: #4c4c4d !important;
 }
-.bg-darkgrey{
+.bg-darkgrey {
   background: #202020;
 }
-.light-mode .bg-darkgrey{
+.light-mode .bg-darkgrey {
   background: #ffff;
 }
-.text-white{
+.text-white {
   color: #fff;
 }
-.light-mode .text-white{
+.light-mode .text-white {
   color: #101010 !important;
 }
 .dropdown-item.active,
@@ -139,9 +140,9 @@ button.btn.btn-theme.bg-white {
 }
 .upload-icon:before {
   color: #fff;
-  content: '';
+  content: "";
   width: 20px;
-  background: url('/src/images/upload-icon.png');
+  background: url("/src/images/upload-icon.png");
   height: 20px;
   display: block;
   background-repeat: no-repeat;
@@ -149,10 +150,10 @@ button.btn.btn-theme.bg-white {
   top: 3px;
   margin-right: 8px;
 }
-.section-content{
+.section-content {
   margin-top: 20px !important;
 }
-.no-data{
+.no-data {
   display: none;
 }
 
@@ -175,9 +176,12 @@ button.btn.btn-theme.bg-white {
 .overview-section {
   margin-bottom: 64px;
 }
+.overview-items {
+  min-width: 1000px;
+}
 .overview-section .sub-heading {
   color: #fff;
--webkit-text-fill-color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
 }
 .overview-item {
   border-radius: 16px;
@@ -187,7 +191,8 @@ button.btn.btn-theme.bg-white {
   justify-content: space-between;
   flex-direction: column;
 }
-.overview-item h2 , .overview-item h3{
+.overview-item h2,
+.overview-item h3 {
   margin: 0;
 }
 .overview-item .image {
@@ -207,84 +212,76 @@ button.btn.btn-theme.bg-white {
   line-height: 93px;
   letter-spacing: -0.17px;
 }
-.artist-dashboard{
+.artist-dashboard {
   min-height: 100vh;
 }
-.library-tabs-section .nav-tabs{
+.library-tabs-section .nav-tabs {
   justify-content: center;
 }
-.graphing{
+.graphing {
   display: flex;
 }
-.graph1{
+.graph1 {
   margin-top: 12px;
 }
-.graph1 img{
+.graph1 img {
   margin-left: 36px;
 }
-.dates ul{
+.dates ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
-.dates ul li{
+.dates ul li {
   color: #707070;
   font-size: 16px;
 }
-.graph2 span{
-  position: absolute;
-  top: 302px;
-  right: 97px;
-  font-size: 16px;
-  background-image: linear-gradient(45deg, #8CC600 17%, #1AE0E0 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.graph2 {
+  position: relative;
 }
-.data{
+.graph2 span {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  font-size: 16px;
+  background-image: linear-gradient(45deg, #8cc600 17%, #1ae0e0 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.data {
   display: flex;
   margin-top: 50px;
   justify-content: center;
+  flex-wrap: wrap;
 }
-.data1{
-  margin-right: 100px;
-  margin-left: 100px;
+.data1 {
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.data1 p{
+.data1 p {
   color: #707070;
   font-size: 16px;
 }
-.data1 span{
-  background-image: linear-gradient(
-45deg, #8CC600 17%, #1AE0E0 50%);
-    -webkit-background-clip: text;
-    font-size: 16px;
-    -webkit-text-fill-color: transparent;
-}
-.data2{
-  margin-left: 100px;
-}
-.data2 p{
-  color: #707070;
+.data1 span {
+  background-image: linear-gradient(45deg, #8cc600 17%, #1ae0e0 50%);
+  -webkit-background-clip: text;
   font-size: 16px;
+  -webkit-text-fill-color: transparent;
 }
-.lib-tabs .nav-tabs .nav-link.active{
-  border-bottom: 1px solid #8CC600 !important;
+
+.lib-tabs .nav-tabs .nav-link.active {
+  border-bottom: 1px solid #8cc600 !important;
 }
-.data2 span{
-  background-image: linear-gradient(
-45deg, #8CC600 17%, #1AE0E0 50%);
-    -webkit-background-clip: text;
-    font-size: 16px;
-    -webkit-text-fill-color: transparent;
-}
-.faning{
+.faning {
   margin-top: 50px;
   margin-bottom: 55px;
 }
 
 /* Upload Modal */
-.upload-modal .modal-fullscreen .modal-content{
-  background-image: url('./images/upload-bg.png');
+.upload-modal .modal-fullscreen .modal-content {
+  background-image: url("./images/upload-bg.png");
   color: #fff;
   background-repeat: no-repeat;
   background-position: center;
@@ -299,14 +296,14 @@ button.btn.btn-theme.bg-white {
   right: 45px;
   top: 55px;
 }
-.upload-modal .modal-fullscreen .modal-body{
+.upload-modal .modal-fullscreen .modal-body {
   /* display: flex;
   align-items: center; */
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.upload-modal .modal-fullscreen .modal-body .border-right{
+.upload-modal .modal-fullscreen .modal-body .border-right {
   border-right: 1px solid #393939;
 }
 /* .upload-modal .modal-body:before {
@@ -321,18 +318,18 @@ button.btn.btn-theme.bg-white {
   border: 1px solid #393939;
   background: #393939;
 } */
-.upload-modal .content-wrapper{
+.upload-modal .content-wrapper {
   text-align: center;
   /* max-width: 470px; */
   margin: 0 auto;
   padding: 0 100px;
 }
-.upload-modal .content-wrapper h1{
+.upload-modal .content-wrapper h1 {
   font-size: 60px;
   line-height: 80px;
   text-transform: uppercase;
 }
-.upload-modal .content-wrapper .content{
+.upload-modal .content-wrapper .content {
   margin-top: 35px;
   margin-bottom: 100px;
   max-width: 515px;
@@ -357,13 +354,14 @@ button.btn.btn-theme.bg-white {
   margin-top: 60px;
 }
 .upload-modal .btn-white {
-  background: #F7F7F7;
+  background: #f7f7f7;
   color: #000;
   border-radius: 96px;
   border: 1px solid #fff;
   height: 52px;
   font-weight: 700;
   padding: 10px 20px;
+  text-decoration: none;
 }
 .upload-modal .btn-outline-white {
   background: transparent;
@@ -377,6 +375,7 @@ button.btn.btn-theme.bg-white {
 .upload-modal .btn-white:hover {
   background: transparent;
   border-color: #fff;
+  color: #fff;
 }
 .song-info form .form-label {
   font-size: 28px;
@@ -408,15 +407,15 @@ button.btn.btn-theme.bg-white {
   width: 60%;
 }
 .quantity-prices .description h2 {
-    width: 50%;
-    text-align: left;
-    font-size: 44px;
-    line-height: 52px;
+  width: 50%;
+  text-align: left;
+  font-size: 44px;
+  line-height: 52px;
 }
 .quantity-prices .description p {
-    width: 50%;
-    text-align: left;
-    font-size: 13px;
+  width: 50%;
+  text-align: left;
+  font-size: 13px;
 }
 .quantity-prices .currency {
   margin-right: 40px;
@@ -427,34 +426,34 @@ button.btn.btn-theme.bg-white {
   font-size: 30px;
   line-height: 35px;
 }
-.quantity-prices .value span{
-  border-top: 1px solid #424242
+.quantity-prices .value span {
+  border-top: 1px solid #424242;
 }
 .quantity-prices .price {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 .quantity {
   align-items: center;
 }
 .quantity input[type="text"] {
-    width: 50px;
-    background: no-repeat;
-    border: none;
-    color: #fff;
-    font-size: 30px;
-    text-align: center;
-    margin: 0 10px;
+  width: 50px;
+  background: no-repeat;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 10px;
 }
 
-.quantity  span {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    background: #202020;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.quantity span {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  background: #202020;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .quantity-prices .nav-tabs {
   border: none;
@@ -482,8 +481,258 @@ button.btn.btn-theme.bg-white {
   border: none;
   font-size: 18px;
   font-weight: 400;
-  color: #BEBEBE;
+  color: #bebebe;
 }
 .upload-modal .quantity-prices .content-wrapper .content {
   margin-bottom: 50px;
+}
+.upload-modal .modal-body .content-wrapper .icon {
+  margin-bottom: 70px;
+}
+.artist-dashboard .history {
+  margin-top: 50px;
+  border-top: 1px solid #202020;
+  padding-top: 70px;
+}
+.light-mode .artist-dashboard .history {
+  border-color: #d6d6d6;
+}
+.artist-dashboard .history h2 {
+  font-size: 44px;
+  margin-bottom: 40px;
+}
+.artist-dashboard .history h4 {
+  margin-bottom: 20px;
+  color: #f7f7f7;
+  font-weight: normal;
+  font-size: 22px;
+}
+.load-more {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.load-more .btn-dark {
+  border-radius: 25px;
+}
+img.light {
+  display: none;
+}
+.light-mode img.dark {
+  display: none;
+}
+.light-mode img.light {
+  display: block;
+}
+.artist-dashboard .history .music-details {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.quantity-prices .currency .icon img {
+  width: auto;
+}
+@media (max-width: 1199px) { 
+
+.overview-section .container {
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.upload-modal .modal-fullscreen .modal-header {
+  padding: 25px;
+}
+.upload-modal .content-wrapper{
+  padding: 0 60px;
+}
+.upload-modal .content-wrapper h1 {
+  font-size: 40px;
+  line-height: 50px;
+}
+.upload-modal .content-wrapper .content {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.upload-modal .modal-fullscreen .modal-body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.upload-modal .modal-body .content-wrapper .icon {
+  margin-bottom: 40px;
+}
+.select-file-btn {
+  margin-bottom: 20px;
+}
+.upload-modal .file-type-info {
+  margin-top: 40px;
+}
+.song-info form .form-label {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.song-info form .form-control {
+  min-height: 70px;
+}
+.quantity-prices .nav-tabs {
+  width: 350px;
+}
+.quantity-prices .nav-tabs li.nav-item .nav-link {
+  height: 50px;
+  font-size: 16px;
+}
+.quantity-prices .description h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+.quantity-prices .value {
+  font-size: 24px;
+  line-height: 32px;
+}
+.quantity input[type="text"]{
+  font-size: 24px;
+}
+.overview-item .summary .value {
+  font-size: 60px;
+}
+.overview-item h2, .overview-item h3 {
+  margin: 0;
+  font-size: 24px;
+}
+.sub-heading {
+  font-size: 40px;
+}
+.upload-modal .cross-btn {
+  right: 15px;
+  top: 35px;
+}
+}
+@media (max-width: 991px) { 
+  .main-padding-top {
+    padding-top: 100px;
+  }
+  .artist-dashboard .upload-icon {
+    text-align: center;
+    width: fit-content;
+    margin-top: 10px;
+  }
+  .upload-modal .content-wrapper {
+    padding: 0 30px;
+}
+.upload-modal .content-wrapper h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+.content-wrapper .icon img {
+  width: 80px;
+}
+.upload-modal .modal-body .content-wrapper .icon {
+  margin-bottom: 20px;
+}
+.upload-modal .btn-outline-white {
+  height: 45px;
+}
+.song-info form .form-label {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.song-info form .form-control {
+  min-height: 60px;
+}
+.quantity-prices .item {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+}
+@media (max-width: 767px) {
+  .navbar-dark .navbar-brand{
+    width: 160px;
+  } 
+  .overview-item .summary .value {
+    font-size: 50px;
+    line-height: 60px;
+}
+.overview-section {
+  margin-bottom: 30px;
+}
+.artist-dashboard .top-section {
+  bottom: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.empty .no-data {
+  padding: 40px;
+  margin-top: 10px;
+}
+.artist-dashboard .history {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.artist-dashboard .history h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.artist-dashboard .history h4{
+  font-size: 16px;
+}
+.data1 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.artist-dashboard .history .music-details {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+.artist-dashboard .history .music-details .music-head{
+  margin-bottom: 10px;
+}
+.upload-modal .modal-fullscreen .modal-body .border-right{
+  border: none;
+}
+.upload-modal .content-wrapper{
+  margin-bottom: 50px;
+}
+.quantity-prices .item .description {
+  flex-direction: column;
+  width: 100%;
+}
+.quantity-prices .description h2 , .quantity-prices .description p{
+  width: 100%;
+}
+
+}
+@media (max-width: 575px) {
+  .upload-modal .content-wrapper {
+    padding: 0 0px;
+}
+.quantity-prices .nav-tabs {
+  width: 260px;
+}
+.quantity-prices .nav-tabs li.nav-item .nav-link {
+  height: 40px;
+  font-size: 14px;
+}
+.quantity-prices .description h2 {
+  font-size: 24px;
+  line-height: 34px;
+}
+.quantity-prices .description p{
+  font-size: 12px;
+}
+.upload-modal .btn-gray {
+  width: 42px;
+  height: 42px;
+}
+.song-info form .form-control {
+  min-height: 50px;
+}
+.content-wrapper .icon img {
+  width: 50px;
+}
+.upload-modal .content-wrapper h1 {
+  font-size: 28px;
+  line-height: 35px;
+}
 }

@@ -17,3 +17,9 @@
     margin: 0px 20px;
     border: 0px;
 }
+.light-mode .library-tabs-section .nav-tabs .nav-link {
+    color: #D6D6D6;
+}
+.light-mode .library-tabs-section .nav-tabs .nav-link.active {
+    color: #101010;
+}

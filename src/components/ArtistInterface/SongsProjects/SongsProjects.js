@@ -11,7 +11,7 @@ function SongsProjects() {
     <>
       <div className="artist-dashboard">
         <Header />
-        <div className="songs-projects">
+        <div className="songs-projects main-padding-top">
           <Container>
             <Row>
               <Col md={12} xs={12}>

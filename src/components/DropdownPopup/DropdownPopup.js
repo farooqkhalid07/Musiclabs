@@ -38,15 +38,15 @@ function Dropdown(props) {
                         <div className="p-4 border-top">
                             <div className="d-flex justify-content-between imgs-row">
                                 <div className="img-box">
-                                    <img className="img-fluid" src="images/user-icon.svg" />
+                                    <img className="img-fluid" src="/images/user-icon.svg" />
                                     <span>23</span>
                                 </div>
                                 <div className="img-box">
-                                    <img className="img-fluid" src="images/user-icon.svg" />
+                                    <img className="img-fluid" src="/images/user-icon.svg" />
                                     <span>23</span>
                                 </div>
                                 <div className="img-box">
-                                    <img className="img-fluid" src="images/user-icon.svg" />
+                                    <img className="img-fluid" src="/images/user-icon.svg" />
                                     <span>23</span>
                                 </div>
                             </div>

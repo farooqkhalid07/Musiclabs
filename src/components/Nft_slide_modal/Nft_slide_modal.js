@@ -64,7 +64,7 @@ function Nft_slide_modal(props) {
                                     <div className="graph pt-3 pb-2">
                                         <img className="img-fluid" src={MusicGraph} />
                                     </div>
-                                    <div className="d-flex justify-content-between">
+                                    <div className="d-flex justify-content-between flex-wrap">
                                         <span>19/06</span>
                                         <span>26/06</span>
                                         <span>3/07</span>

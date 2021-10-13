@@ -7,7 +7,7 @@
     float: right;
     background: #101010;
     position: absolute;
-    right: 0;
+    right: 20px;
     top: -60px;
     z-index: 100;
     border-radius: 25px;
@@ -100,4 +100,16 @@ text-align: center;
 }
 .dropdown-popup .border-top {
     border-top: 1px solid #202020!important;
+}
+@media (max-width: 767px) {
+
+.dropdown-popup .img-box{
+    height: 120px;
+}
+.dropdown-popup .theme-buttons .btn-primary{
+    width: 90px;
+}
+.dropdown-popup .dropdown-content{
+    right: 0;
+}
 }

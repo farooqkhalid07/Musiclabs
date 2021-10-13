@@ -12,18 +12,20 @@ import ArtistOverview from "../ArtistOverview/ArtistOverview";
 function Home() {
    return (
       <div className="artist-dashboard">
-         <div className="banner-section">
-            <Header />
+         <Header />
+         <div className="banner-section main-padding-top">
+
             <Banner />
+            <ArtistOverview />
          </div>
          <div className="top-section">
-            <ArtistOverview/>
+            
             < Nft />
          </div>
          <div className="sec-bg-gradient">
             <Trending_slider />
             <div className="empty">
-               <Trending_slider/>
+               <Trending_slider />
             </div>
          </div>
 

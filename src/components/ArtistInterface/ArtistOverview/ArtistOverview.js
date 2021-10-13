@@ -14,7 +14,7 @@ function ArtistOverview() {
 
         <div className="overview-items">
           <Row>
-            <Col md={3} xs={12}>
+            <Col xs={3}>
               <div className="overview-item bg-darkgrey">
                 <h2>Popularity</h2>
                 <div className="summary">
@@ -24,7 +24,7 @@ function ArtistOverview() {
 
               </div>
             </Col>
-            <Col md={3} xs={12}>
+            <Col xs={3}>
               <div className="overview-item bg-darkgrey">
                 <h2>Songs sold</h2>
                 <div className="summary">
@@ -33,17 +33,24 @@ function ArtistOverview() {
                 </div>
               </div>
             </Col>
-            <Col md={6} xs={12}>
+            <Col xs={6}>
               <div className="overview-item bg-darkgrey">
                 <h2>Visit</h2>
                 <div className="image">
                   <img src="/images/visit-graph.png" alt="Visit Graphj" className="dark img-fluid" />
                   <img src="/images/visit-graph-light.png" alt="Visit Graphj" className="light img-fluid" />
                 </div>
-                <div className="summary">
-                  <div className="value text-white">2 398</div>
-                  <h3 className="text-white">unique visitors</h3>
+                <div className="d-flex justify-content-between">
+                  <div className="summary">
+                    <div className="value text-white">2 398</div>
+                    <h3 className="text-white">unique visitors</h3>
+                  </div>
+                  <div className="summary">
+                    <div className="value text-white">2 398</div>
+                    <h3 className="text-white">unique visitors</h3>
+                  </div>
                 </div>
+
               </div>
             </Col>
           </Row>

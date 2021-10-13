@@ -17,7 +17,7 @@ function SongsList() {
 
     return (
         <>
-            <div className="music-content d-flex justify-content-between align-items-center">
+            <div className="music-content flex-column flex-sm-row  d-flex justify-content-between align-items-start align-items-sm-center">
                 <div className="d-flex">
                     <div className="music me-3">
                         <img onClick={() => setLgShow(true)} className="img-fluid" src={music_img} />

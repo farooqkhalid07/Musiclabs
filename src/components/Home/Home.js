@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../Header/Header';
 import './Home.css';
@@ -10,23 +10,24 @@ import HouseOfCard from "../HouseOfCard/HouseOfCard";
 // import Footer from '../Footer/Footer.js';
 
 
-function Home(){
-    return(
-        <React.Fragment>
-             <div className="banner-section">
-                <Header/>
-                <Banner/>
-             </div>
-             <div className="top-section">
-             <  Nft/>
-             </div>
-             <div className="sec-bg-gradient">
-                <Trending_slider/>
-                <Golden_West/>
-             </div>
-                <Trending_slider/>
-             
-        </React.Fragment>
-    )
+function Home() {
+   return (
+      <div className="main-wrapper">
+         <Header />
+         <div className="banner-section main-padding-top">
+
+            <Banner />
+         </div>
+         <div className="top-section">
+            <  Nft />
+         </div>
+         <div className="sec-bg-gradient">
+            <Trending_slider />
+            <Golden_West />
+         </div>
+         <Trending_slider />
+
+      </div>
+   )
 }
 export default Home;

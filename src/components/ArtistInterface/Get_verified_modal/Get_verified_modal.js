@@ -4,20 +4,12 @@ import { Modal, Button, } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDotCircle, faTimes, faPause, faChevronRight, faChevronLeft, faPlus, faMinus, faCloudUploadAlt } from '@fortawesome/free-solid-svg-icons';
 import EthIcon from '../../../images/ethereum.svg'
+import Upload from '../../../images/upload.png'
+import Complete from '../../../images/complete-icon.png'
 
 function Get_verified_modal(props) {
-    const [key, setKey] = useState('fixed');
-    const [Info, setInfo] = useState(true);
-    const [upload, setupload] = useState(false);
-    const [songinfo, setsonginfo] = useState(false);
-    const [quantity, setquantity] = useState(false);
     const [count, setCount] = useState(0);
 
-    function setuploadview() {
-        setInfo(false);
-        setupload(true);
-
-    }
     return (
         <>
             <Modal fullscreen={true}
@@ -38,7 +30,7 @@ function Get_verified_modal(props) {
                                 <Col md={12}>
                                     <div className="content-wrapper">
                                         <h1>Get verified</h1>
-                                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                        <p className="content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                         <Button className="btn-white right-arrow" onClick={() => setTimeout(() => setCount(x => x + 1), 100)}>Start <FontAwesomeIcon className="ms-1" icon={faChevronRight} /></Button>
                                     </div>
                                 </Col>
@@ -49,6 +41,10 @@ function Get_verified_modal(props) {
                             <Row>
                                 <Col md={12}>
                                     <div className="content-wrapper">
+                                        <div className="icon">
+                                            <img src={Upload} alt="" className="img-fluid" />
+                                        </div>
+
                                         <h1>upload your Face</h1>
                                         <p className="content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                         <div className="select-file-btn"><input type="file" /><Button className="btn-outline-white right-arrow"><FontAwesomeIcon className="me-2" icon={faCloudUploadAlt} />Choose my file </Button></div>
@@ -103,10 +99,13 @@ function Get_verified_modal(props) {
                             <Row>
                                 <Col md={12}>
                                     <div className="content-wrapper">
+                                        <div className="icon">
+                                            <img src={Complete} alt="" className="img-fluid" />
+                                        </div>
                                         <h1>Your informations have been sent</h1>
                                         <p className="content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                                        
-                                         <Button className="btn-white right-arrow"> Upload complete <FontAwesomeIcon className="ms-1" icon={faChevronRight} /></Button>
+
+                                        <a href="/artist/dashboard" className="btn-white right-arrow"> Got to the dashboard <FontAwesomeIcon className="ms-1" icon={faChevronRight} /></a>
 
                                     </div>
                                 </Col>

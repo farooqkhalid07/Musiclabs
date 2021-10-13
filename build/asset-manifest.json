@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4366871.chunk.css",
-    "main.js": "/static/js/main.27048df7.chunk.js",
-    "main.js.map": "/static/js/main.27048df7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.92b63e2e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.92b63e2e.js.map",
+    "main.css": "/static/css/main.476a9b91.chunk.css",
+    "main.js": "/static/js/main.6fcd4005.chunk.js",
+    "main.js.map": "/static/js/main.6fcd4005.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c4048d93.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c4048d93.js.map",
     "static/css/2.f924abfe.chunk.css": "/static/css/2.f924abfe.chunk.css",
-    "static/js/2.4a8f7b46.chunk.js": "/static/js/2.4a8f7b46.chunk.js",
-    "static/js/2.4a8f7b46.chunk.js.map": "/static/js/2.4a8f7b46.chunk.js.map",
-    "static/js/3.a8e188d2.chunk.js": "/static/js/3.a8e188d2.chunk.js",
-    "static/js/3.a8e188d2.chunk.js.map": "/static/js/3.a8e188d2.chunk.js.map",
+    "static/js/2.3bec37ea.chunk.js": "/static/js/2.3bec37ea.chunk.js",
+    "static/js/2.3bec37ea.chunk.js.map": "/static/js/2.3bec37ea.chunk.js.map",
+    "static/js/3.950236fa.chunk.js": "/static/js/3.950236fa.chunk.js",
+    "static/js/3.950236fa.chunk.js.map": "/static/js/3.950236fa.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f924abfe.chunk.css.map": "/static/css/2.f924abfe.chunk.css.map",
-    "static/css/main.e4366871.chunk.css.map": "/static/css/main.e4366871.chunk.css.map",
-    "static/js/2.4a8f7b46.chunk.js.LICENSE.txt": "/static/js/2.4a8f7b46.chunk.js.LICENSE.txt",
+    "static/css/main.476a9b91.chunk.css.map": "/static/css/main.476a9b91.chunk.css.map",
+    "static/js/2.3bec37ea.chunk.js.LICENSE.txt": "/static/js/2.3bec37ea.chunk.js.LICENSE.txt",
     "static/media/Golden-west-banner.cebd6dc1.png": "/static/media/Golden-west-banner.cebd6dc1.png",
     "static/media/Home.css": "/static/media/header-bg.e1abf0b5.png",
     "static/media/Nft_slide.css": "/static/media/house-cards-bg.2face7fe.svg",
@@ -24,13 +24,14 @@
     "static/media/music-layers.b86eb3aa.svg": "/static/media/music-layers.b86eb3aa.svg",
     "static/media/music_item.dd8783b0.png": "/static/media/music_item.dd8783b0.png",
     "static/media/profile.4605a0ba.png": "/static/media/profile.4605a0ba.png",
-    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/App.css": "/static/media/upload-bg.6b4bde12.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.92b63e2e.js",
+    "static/js/runtime-main.c4048d93.js",
     "static/css/2.f924abfe.chunk.css",
-    "static/js/2.4a8f7b46.chunk.js",
-    "static/css/main.e4366871.chunk.css",
-    "static/js/main.27048df7.chunk.js"
+    "static/js/2.3bec37ea.chunk.js",
+    "static/css/main.476a9b91.chunk.css",
+    "static/js/main.6fcd4005.chunk.js"
   ]
 }

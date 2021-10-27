@@ -11,7 +11,7 @@ div#root {
     overflow: hidden;
 }
 .slick-list{
-    overflow: visible !important;
+    /* overflow: visible !important; */
 }
 .slick-list:before {
     content: '';
@@ -561,5 +561,12 @@ color: #000;
     }
     .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus {
         margin-top: 10px;
+    }
+ }
+
+
+ @media (min-width: 1921px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1850px;
     }
  }

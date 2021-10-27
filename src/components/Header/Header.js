@@ -25,9 +25,9 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <ul className="navbar-nav m-auto">
                             <span className="material-icons-outlined"></span>
-                            <li className={`nav-item ${pathname === '/' ? 'active' : ''}`}><Link className="nav-link" to="/"><i className="nav-icon"><FontAwesomeIcon icon={faCompass} /></i>Discover </Link></li>
-                            <li className={`nav-item ${pathname === '/trade' ? 'active' : ''}`}><Link className="nav-link" to="/trade"><i className="nav-icon"><FontAwesomeIcon icon={faExchangeAlt} /></i>Trade</Link></li>
-                            <li className={`nav-item ${pathname === '/library' ? 'active' : ''}`}><Link className="nav-link" to="/library"><i className="nav-icon"><FontAwesomeIcon icon={faPlayCircle} /></i>Library</Link></li>
+                            <li className={`nav-item ${pathname === '/' ? 'active' : ''}`}><Link className="nav-link" to="/"><i className="nav-icon"><FontAwesomeIcon icon={faCompass} /></i>Catch </Link></li>
+                            <li className={`nav-item ${pathname === '/trade' ? 'active' : ''}`}><Link className="nav-link" to="/trade"><i className="nav-icon"><FontAwesomeIcon icon={faExchangeAlt} /></i>Trade </Link></li>
+                            <li className={`nav-item ${pathname === '/library' ? 'active' : ''}`}><Link className="nav-link" to="/library"><i className="nav-icon"><FontAwesomeIcon icon={faPlayCircle} /></i>Listen</Link></li>
                         </ul>
                     </Navbar.Collapse>
                     <div className="user-icon float-end">

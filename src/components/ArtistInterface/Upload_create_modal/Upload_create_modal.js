@@ -10,7 +10,7 @@ function Upload_create_modal(props) {
     const [key, setKey] = useState('fixed');
     const [count, setCount] = useState(0);
 
-   
+
     return (
         <>
             <Modal fullscreen={true}
@@ -192,14 +192,75 @@ function Upload_create_modal(props) {
                                 </Col>
                             </Row>
                         </div> : ""}
+                        {count == '4' ? <div className="royalties">
+                            <Container>
+                                <Row>
+                                    <div className="about-royalty">
+                                        <h1>
+                                            split Royalties
+                                        </h1>
+                                        <p>
+                                            Split your royalties with partners
+                                        </p>
+                                    </div>
+                                    <Col md={3}>
+                                        <div className="royalty-content">
+                                            <h4>%</h4>
+                                            <p>10</p>
+                                            <form>
+                                                <div className="royalty-form">
+                                                <input type="text" class="form-control1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=""/>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </Col>
+                                    <Col md={3}>
+                                        <div className="royalty-content">
+                                            <h4>TYPE</h4>
+                                            <p>Beatmaker</p>
+                                            <form>
+                                                <div className="royalty-form">
+                                                <input type="text" class="form-control1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=""/>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </Col>
+                                    <Col md={4}>
+                                        <div className="royal-content">
+                                            <h4>wallet</h4>
+                                            <p>0ejebfhffjknsjnsnkniqiq0uw9uejsknsih2i20</p>
+                                            <form>
+                                                <div className="royal-form">
+                                                <input type="text" class="form-control1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=""/>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </Col>
+                                    <Col md={2}>
+                                        <div className="royalty-cont">
+                                            <p>ADD A WALLET</p>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <div className="royal-cont">
+                                    <p>
+                                        You will received 90% of the first launch andthen
+                                    </p>
+                                </div>
+                                <div className="royalties-content">
+                                    <h2>Royalties </h2> <form><span><input type="text" class="form-control1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=""/></span></form>
+                                    <p>Suggested: 0%, 10%, 20%, 30%. Maximum is 50%</p>
+                                </div>
+                            </Container>
+                        </div> : ""}
 
 
                     </Container>
                 </Modal.Body>
-                {count > '0' && count < '4' ? < Modal.Footer >
+                {count > '0' && count < '5' ? < Modal.Footer >
                     <div className=" footer-btns">
                         <Button className="btn-gray right-arrow" onClick={() => setTimeout(() => setCount(x => x - 1), 100)}> <FontAwesomeIcon icon={faChevronLeft} />  </Button>
-                        {count < 3 ? <Button className="btn-white right-arrow" onClick={() => setTimeout(() => setCount(x => x + 1), 100)} >Confirm <FontAwesomeIcon className="ms-1" icon={faChevronRight} />  </Button> : <a href="/artist/dashboard" className="btn-white right-arrow" onClick={() => setTimeout(() => setCount(x => x + 1), 100)} >Confirm <FontAwesomeIcon className="ms-1" icon={faChevronRight} />  </a>}
+                        {count < 4 ? <Button className="btn-white right-arrow" onClick={() => setTimeout(() => setCount(x => x + 1), 100)} >Confirm <FontAwesomeIcon className="ms-1" icon={faChevronRight} />  </Button> : <a href="/artist/dashboard" className="btn-white right-arrow" onClick={() => setTimeout(() => setCount(x => x + 1), 100)} >Confirm <FontAwesomeIcon className="ms-1" icon={faChevronRight} />  </a>}
 
 
 

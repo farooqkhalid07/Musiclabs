@@ -557,6 +557,244 @@ img.light {
 .quantity-prices .currency .icon img {
   width: auto;
 }
+.about-project{
+  background-image: url(./images/image\ 2.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-bottom: 120px;
+}
+.abt-project{
+  margin-top: 170px;
+  margin-right: 50px;
+}
+.abt-project h1{
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 82px;
+  letter-spacing: -0.16500000655651093px;
+  text-align: left;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.abt-project img{
+  padding-bottom: 50px;
+}
+.abt-project p{
+  padding-bottom: 50px;
+}
+.abt-project h3{
+padding-bottom: 50px;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 34px;
+letter-spacing: -0.165px;
+text-transform: uppercase;
+color: #fff;
+}
+.pro-detail{
+  margin-top: 300px;
+  padding-bottom: 85px;
+}
+.pro-detail h3{
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 34px;
+color: #fff;
+letter-spacing: -0.165px;
+text-transform: uppercase;
+}
+.pro-line{
+  position: absolute;
+  width: 340px;
+  height: 6px;
+  right: 128px;
+  top: 375px;
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 40px;
+}
+.pro-line span{
+  width: 133px;
+height: 6px;
+left: 33px;
+top: 116px;
+background: #F7F7F7;
+border-radius: 40px;
+display: inherit;
+}
+.pro-line p{
+  margin-top: -39px;
+    font-size: 19px;
+}
+.project-content p{
+  margin: 0;
+}
+.project-button{
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.project-cont h3{
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: -0.16500000655651093px;
+text-align: left;
+color: #fff;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+.about-royalty h1{
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: -0.16500000655651093px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 28px;
+}
+.about-royalty p{
+font-size: 24px;
+font-style: italic;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: -0.16500000655651093px;
+text-align: center;
+padding-bottom: 50px;
+}
+.royalty-content h4{
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: -0.16500000655651093px;
+text-align: left;
+padding-bottom: 25px;
+}
+.royalty-content p{
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 37px;
+padding-bottom: 35px;
+letter-spacing: -0.165px;
+}
+.royal-content p {
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 37px;
+letter-spacing: -0.165px;
+padding-bottom: 35px;
+}
+.royal-content h4{
+    font-size: 44px;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.16500000655651093px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.royalty-cont p{
+font-style: italic;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: -0.165px;
+color: #FFFFFF;
+padding-top: 100px;
+padding-bottom: 135px;
+}
+.royalty-cont p::before{
+content: "";
+position: absolute;
+width: 63px;
+height: 0px;
+top: 380px;
+border: 1px solid #424242;
+}
+.royalty-form .form-control1{
+  height: 60px;
+  width: 160px;
+  border-radius: 11px;
+  background: #282828;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.royal-form .form-control1{
+  height: 60px;
+  width: 300px;
+  border-radius: 11px;
+  background: #282828;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.royal-cont{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.16500000655651093px;
+    text-align: center;
+    padding-top: 25px;
+}
+.royal-cont p::before{
+  content: "";
+  height: 2px;
+  left: 215px;
+  position: absolute;
+  top: 615px;
+  background: #393939;
+  width: 940px;
+}
+.royalties-content{
+  padding-top: 70px;
+    margin-left: 8%;
+    position: relative;
+}
+.royalties-content h2{
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 76px;
+letter-spacing: -0.16500000655651093px;
+text-transform: uppercase;
+}
+.royalties-content span .form-control1{
+  height: 60px;
+  outline: none;
+  border: none;
+    width: 160px;
+    border-radius: 11px;
+    background: #282828;
+    display: inline-block;
+    position: absolute;
+    top: 78px;
+    left: 46%;
+    color: #fff;
+}
+.royalties-content p{
+font-size: 24px;
+font-style: italic;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: -0.16500000655651093px;
+text-align: center;
+color: #fff;
+padding-top: 35px;
+
+}
 @media (max-width: 1199px) { 
 
 .overview-section .container {
@@ -629,6 +867,55 @@ img.light {
   right: 15px;
   top: 35px;
 }
+.about-royalty h1 {
+  font-size: 50px;
+  line-height: 52px;
+  padding-bottom: 25px;
+}
+.about-royalty p {
+  font-size: 22px;
+  line-height: 13px;
+  padding-bottom: 40px;
+}
+.royalty-content h4 {
+  font-size: 30px;
+  line-height: 30px;
+  padding-bottom: 15px;
+}
+.royal-content h4 {
+  font-size: 30px;
+  padding-bottom: 15px;
+  line-height: 30px;
+}
+.royalty-cont p {
+  font-size: 11px;
+  line-height: 16px;
+  padding-top: 62px;
+  padding-bottom: 135px;
+}
+.royalty-cont p::before {
+  width: 63px;
+  top: 277px;
+}
+.royal-cont {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 8px;
+  padding-top: 25px;
+}
+.royalties-content h2 {
+  font-size: 50px;
+  line-height: 76px;
+}
+.royal-cont p::before {
+  left: 80px;
+  top: 515px;
+  width: 815px;
+}
+.royalties-content p {
+  font-size: 20px;
+  padding-top: 35px;
+}
 }
 @media (max-width: 991px) { 
   .main-padding-top {
@@ -665,6 +952,84 @@ img.light {
 .quantity-prices .item {
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+.about-royalty h1 {
+  font-size: 42px;
+  line-height: 42px;
+  padding-bottom: 22px;
+}
+.about-royalty p {
+  font-size: 20px;
+  line-height: 6px;
+  padding-bottom: 35px;
+}
+.royalty-content h4 {
+  font-size: 26px;
+  line-height: 26px;
+  padding-bottom: 15px;
+}
+.royal-content h4 {
+  font-size: 26px;
+  padding-bottom: 15px;
+  line-height: 26px;
+}
+.royalty-content p {
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+.royal-content p {
+  font-size: 11px;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+.royalty-cont p {
+  font-size: 11px;
+  line-height: 16px;
+  padding-top: 55px;
+  padding-bottom: 135px;
+}
+.royalty-form .form-control1 {
+  height: 50px;
+  width: 130px;
+}
+.royal-form .form-control1 {
+  height: 50px;
+  width: 230px;
+}
+.royalty-cont p::before {
+  width: 63px;
+  top: 240px;
+}
+.royal-cont {
+  font-size: 18px;
+  line-height: 8px;
+  padding-top: 5px;
+}
+.royal-cont p::before {
+  left: 65px;
+  top: 450px;
+  width: 640px;
+}
+.royalties-content {
+  padding-top: 50px;
+  margin-left: 4%;
+  position: relative;
+}
+.royalties-content h2 {
+  font-size: 42px;
+  line-height: 50px;
+}
+.royalties-content span .form-control1 {
+  height: 50px;
+  width: 135px;
+  top: 50px;
+  left: 41%;
+}
+.royalties-content p {
+  font-size: 18px;
+  padding-top: 35px;
 }
 }
 @media (max-width: 767px) {
@@ -724,7 +1089,67 @@ img.light {
 .quantity-prices .description h2 , .quantity-prices .description p{
   width: 100%;
 }
-
+.about-royalty h1 {
+  font-size: 35px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+.about-royalty p {
+  font-size: 17px;
+  line-height: 3px;
+  padding-bottom: 30px;
+}
+.royalty-content {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.royalty-content h4 {
+  font-size: 26px;
+  line-height: 26px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.royal-content {
+  text-align: center;
+}
+.royal-content h4 {
+  font-size: 26px;
+  padding-bottom: 15px;
+  line-height: 26px;
+  text-align: center;
+}
+.royalty-cont p {
+  font-size: 11px;
+  line-height: 16px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  justify-content: center;
+  cursor: pointer;
+}
+.royalty-cont p::before {
+  width: 61px;
+  top: 740px;
+}
+.royal-cont {
+  font-size: 16px;
+  line-height: 0px;
+  padding-top: 0px;
+}
+.royal-cont p::before {
+  left: 65px;
+  top: 825px;
+  width: 450px;
+}
+.royalties-content h2 {
+  font-size: 34px;
+  line-height: 15px;
+}
+.royalties-content span .form-control1 {
+  height: 40px;
+  width: 125px;
+  top: 38px;
+  left: 45%;
+}
 }
 @media (max-width: 575px) {
   .upload-modal .content-wrapper {
@@ -758,257 +1183,67 @@ img.light {
   font-size: 28px;
   line-height: 35px;
 }
+.about-royalty h1 {
+  font-size: 26px;
+  line-height: 20px;
+  padding-bottom: 18px;
 }
-.about-project{
-  background-image: url(./images/image\ 2.png);
-  background-position: top;
-  background-repeat: no-repeat;
-  margin-bottom: 120px;
+.about-royalty p {
+  font-size: 14px;
+  line-height: 0px;
+  padding-bottom: 30px;
 }
-.abt-project{
-  margin-top: 170px;
-  margin-right: 50px;
-}
-.abt-project h1{
-  font-family: Gotham;
-  font-size: 68px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 82px;
-  letter-spacing: -0.16500000655651093px;
-  text-align: left;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  padding-bottom: 25px;
-}
-.abt-project img{
-  padding-bottom: 50px;
-}
-.abt-project p{
-  padding-bottom: 50px;
-}
-.abt-project h3{
-padding-bottom: 50px;
-font-family: Gotham;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 34px;
-letter-spacing: -0.165px;
-text-transform: uppercase;
-color: #fff;
-}
-.pro-detail{
-  margin-top: 300px;
-  padding-bottom: 85px;
-}
-.pro-detail h3{
-  font-family: Gotham;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 34px;
-color: #fff;
-letter-spacing: -0.165px;
-text-transform: uppercase;
-}
-.pro-line{
-  position: absolute;
-  width: 340px;
-  height: 6px;
-  right: 128px;
-  top: 375px;
-  background: rgba(255, 255, 255, 0.23);
-  border-radius: 40px;
-}
-.pro-line span{
-  width: 133px;
-height: 6px;
-left: 33px;
-top: 116px;
-background: #F7F7F7;
-border-radius: 40px;
-display: inherit;
-}
-.pro-line p{
-  margin-top: -39px;
-    font-size: 19px;
-}
-.project-content p{
-  margin: 0;
-}
-.project-button{
-  margin-top: 40px;
-  margin-bottom: 50px;
-}
-.project-cont h3{
-  font-family: Gotham;
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-line-height: 34px;
-letter-spacing: -0.16500000655651093px;
-text-align: left;
-color: #fff;
-padding-top: 25px;
-padding-bottom: 25px;
-}
-.about-royalty h1{
-  font-family: Abhaya Libre;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 76px;
-  letter-spacing: -0.16500000655651093px;
+.royalty-content h4 {
+  font-size: 22px;
+  line-height: 16px;
+  padding-bottom: 12px;
   text-align: center;
-  text-transform: uppercase;
-  padding-bottom: 28px;
-}
-.about-royalty p{
-font-family: ABeeZee;
-font-size: 24px;
-font-style: italic;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: -0.16500000655651093px;
-text-align: center;
-padding-bottom: 50px;
-}
-.royalty-content h4{
-font-family: Abhaya Libre;
-font-size: 44px;
-font-style: normal;
-font-weight: 700;
-line-height: 52px;
-letter-spacing: -0.16500000655651093px;
-text-align: left;
-padding-bottom: 25px;
-}
-.royalty-content p{
-  font-family: Abel;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 37px;
-padding-bottom: 35px;
-letter-spacing: -0.165px;
-}
-.royal-content p {
-  font-family: Abel;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 37px;
-letter-spacing: -0.165px;
-padding-bottom: 35px;
 }
 .royal-content h4{
-  font-family: Abhaya Libre;
-    font-size: 44px;
-    padding-bottom: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 52px;
-    letter-spacing: -0.16500000655651093px;
-    text-align: left;
-    text-transform: uppercase;
+  font-size: 22px;
+  line-height: 16px;
+  padding-bottom: 12px;
+  text-align: center;
 }
-.royalty-cont p{
-  font-family: ABeeZee;
-font-style: italic;
-font-weight: normal;
-font-size: 13px;
-line-height: 16px;
-display: flex;
-align-items: flex-end;
-text-align: center;
-letter-spacing: -0.165px;
-color: #FFFFFF;
-padding-top: 100px;
-padding-bottom: 135px;
+.royalty-form .form-control1 {
+  height: 40px;
+  width: 120px;
 }
-.royalty-cont p::before{
-content: "";
-position: absolute;
-width: 63px;
-height: 0px;
-top: 380px;
-border: 1px solid #424242;
+.royal-form .form-control1 {
+  height: 40px;
+  width: 230px;
 }
-.royalty-form .form-control1{
-  height: 60px;
-  width: 160px;
-  border-radius: 11px;
-  background: #282828;
-  outline: none;
-  border: none;
-  color: #fff;
+.royalty-cont p::before {
+  width: 61px;
+  top: 656px;
 }
-.royal-form .form-control1{
-  height: 60px;
-  width: 300px;
-  border-radius: 11px;
-  background: #282828;
-  outline: none;
-  border: none;
-  color: #fff;
+.royal-cont {
+  font-size: 11px;
+  line-height: 0px;
+  padding-top: 0px;
 }
-.royal-cont{
-  font-family: ABeeZee;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: -0.16500000655651093px;
-    text-align: center;
-    padding-top: 25px;
+.royal-cont p::before {
+  left: 37px;
+  top: 735px;
+  width: 248px;
 }
-.royal-cont p::before{
-  content: "";
-    height: 2px;
-    left: 340px;
-    position: absolute;
-    top: 615px;
-    background: #393939;
-    width: 672px;
+.royalties-content {
+  padding-top: 35px;
+  margin-left: 0%;
+  position: relative;
 }
-.royalties-content{
-  padding-top: 70px;
-    margin-left: 20%;
-    position: relative;
+.royalties-content h2 {
+  font-size: 25px;
+  line-height: 10px;
 }
-.royalties-content h2{
-  font-family: Abhaya Libre;
-font-size: 64px;
-font-style: normal;
-font-weight: 700;
-line-height: 76px;
-letter-spacing: -0.16500000655651093px;
-text-transform: uppercase;
+.royalties-content span .form-control1 {
+  height: 35px;
+  width: 100px;
+  top: 25px;
+  left: 63%;
 }
-.royalties-content span .form-control1{
-  height: 60px;
-  outline: none;
-  border: none;
-    width: 160px;
-    border-radius: 11px;
-    background: #282828;
-    display: inline-block;
-    position: absolute;
-    top: 78px;
-    left: 46%;
-    color: #fff;
+.royalties-content p {
+  font-size: 11px;
+  padding-top: 35px;
 }
-.royalties-content p{
-  font-family: ABeeZee;
-font-size: 24px;
-font-style: italic;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: -0.16500000655651093px;
-text-align: center;
-color: #fff;
-margin-left: -190px !important;
-padding-top: 35px;
-
 }

@@ -3,6 +3,9 @@
     line-height: 25px;
     color: white;
 }
+.light-mode .paragraph-text{
+    color: #404040;
+}
 /* .slick-list:before {
     content: '';
     width: 332px;

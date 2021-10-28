@@ -10,7 +10,7 @@ import Library from './components/Library/Library';
 import SingerDetails from './components/SingerDetails/SingerDetails';
 import SongsProjects from './components/ArtistInterface/SongsProjects/SongsProjects';
 import Business from './components/ArtistInterface/Business/Business';
-import Project from './components/ArtistInterface/Projectdetail/Projectdetail';
+import Project from './components/Projectdetail/Projectdetail';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Route exact path="/artist/dashboard" component={ArtistDashboard} />
         <Route exact path="/artist/songs-projects" component={SongsProjects} />
         <Route exact path="/artist/business" component={Business} />
-        <Route exact path="/artist/project-detail" component={Project} />
+        <Route exact path="/project-detail" component={Project} />
       </Switch>
       
     </Router>

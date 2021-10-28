@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Nft from '../NFT_Slider/Nft.js';
+import Nft from '../ArtistInterface/NFT_Slider/Nft.js';
 import Header from "../Header/Header";
 
 const Project = () => {

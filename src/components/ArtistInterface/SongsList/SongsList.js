@@ -48,7 +48,7 @@ function SongsList() {
                     </div>
                 </div>
 
-                <a type="button" href="/artist/project-detail" className="btn btn-theme bg-gradient-green" 
+                <a type="button" href="/project-detail" className="btn btn-theme bg-gradient-green" 
                 // onClick={() => setsmShows(true)}
                 >
                 See details
